@@ -1,8 +1,5 @@
-import { useState } from "react";
 import "./App.css";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,8 +7,8 @@ function App() {
       <h1>I need to finish this portfolio</h1>
       <nav>
         <AboutMe />
-        <Projects />
-        <Contact />
+        {/* <Projects />
+        <Contact /> */}
       </nav>
     </main>
   );
