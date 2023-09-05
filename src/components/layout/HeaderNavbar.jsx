@@ -1,6 +1,8 @@
-const HeaderNavbar = () => {
+const HeaderNavbar = ({ setShowMenu, showMenu }) => {
   return (
-    <div>HeaderNavbar</div>
-  )
-}
-export default HeaderNavbar
+    <section>
+      
+    </section>
+  );
+};
+export default HeaderNavbar;

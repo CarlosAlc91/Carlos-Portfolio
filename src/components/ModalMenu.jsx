@@ -1,4 +1,4 @@
-const ModalMenu = ({ showMenu, setShowMenu }) => {
+const ModalMenu = ({ showMenu }) => {
   return (
     <section
       className={`fixed bg-bg-main top-0 right-0 bottom-0 left-0 flex flex-col justify-center items-center transition-[opacity_transform] duration-100 ${

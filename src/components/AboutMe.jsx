@@ -9,7 +9,6 @@ const AboutMe = () => {
   const handlerShowModal = () => {
     setShowMenu(!showMenu);
   };
-
   /* effects */
   return (
     <article className="mx-a min-h-screen">
