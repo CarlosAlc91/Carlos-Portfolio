@@ -1,18 +1,16 @@
-import { useState } from "react";
-import ModalMenu from "./ModalMenu";
+import HeaderNavbar from "./layout/HeaderNavbar";
 
 const AboutMe = () => {
   /* states */
-  const [showMenu, setShowMenu] = useState(false);
 
   /* functions, handlers, logic */
-  const handlerShowModal = () => {
+  /* const handlerShowModal = () => {
     setShowMenu(!showMenu);
-  };
+  }; */
   /* effects */
   return (
     <article className="mx-a min-h-screen">
-      <header>
+      {/* <header>
         <nav className="flex items-center justify-between">
           <img src="/images/logo.png" alt="logo.png" />
           <button
@@ -22,7 +20,8 @@ const AboutMe = () => {
             Carlos Alcantara
           </button>
         </nav>
-      </header>
+      </header> */}
+      <HeaderNavbar />
       <section className="grid items-center pl-12 h-[600px]">
         <h1 className="font-poppins pt-10 text-4xl font-semibold">Hi!</h1>
         <p className="font-sen text-p-gray font-normal">
@@ -46,7 +45,6 @@ const AboutMe = () => {
           alt="circle"
         />
       </section>
-      <ModalMenu showMenu={showMenu} setShowMenu={setShowMenu} />
     </article>
   );
 };
