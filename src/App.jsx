@@ -1,7 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import HeaderNavbar from "./components/layout/HeaderNavbar";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <h1>I need to finish this portfolio</h1>
         <AboutMe />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     </main>
   );

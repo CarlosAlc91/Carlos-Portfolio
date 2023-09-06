@@ -4,8 +4,8 @@ const Projects = () => {
       <h1 className="font-poppins font-semibold text-3xl py-10">
         My last projects
       </h1>
-      <section className="relative z-10">
-        <div className="w-full h-[700px] sm:h-[800px] sm:w-full bg-gray-600/40 px-6 py-8 rounded-3xl  overflow-y-auto">
+      <section className="flex justify-center items-center relative z-10">
+        <div className="w-[800px] h-[700px] sm:h-[800px] sm:w-[1119px] bg-gray-600/40 px-6 py-8 rounded-3xl  overflow-y-auto">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
             suscipit vel nulla ad eos veritatis labore nam maiores esse,
@@ -30,7 +30,7 @@ const Projects = () => {
       </section>
       <section className="">
         <img
-          className="absolute -left-[55%] bottom-8 md:-left md:-bottom-[100px]"
+          className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0"
           src="/images/triangle.png"
           alt=""
         />

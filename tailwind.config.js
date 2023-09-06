@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -12,7 +13,7 @@ export default {
         'cyan': '#10FFF1',
         'red': '#E40037',
         'blue': '#0C08B1',
-        'p-gray': '#8F8F8F'
+        'p-gray': '#8F8F8F',
       }
     },
     fontFamily: {
@@ -20,6 +21,8 @@ export default {
       'sen': ['Sen', 'sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 
