@@ -22,7 +22,7 @@ const AboutMe = () => {
         </nav>
       </header> */}
       <HeaderNavbar />
-      <section className="grid items-center pl-12 h-[600px]">
+      <section className="pl-12 h-[600px]">
         <h1 className="font-poppins pt-10 text-4xl font-semibold">Hi!</h1>
         <p className="font-sen text-p-gray font-normal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
