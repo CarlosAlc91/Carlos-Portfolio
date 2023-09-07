@@ -6,7 +6,7 @@ const Projects = () => {
       </h1>
       <section className="flex justify-center items-center relative z-10">
         {/* div container */}
-        <div className="w-full sm:w-[80%] bg-gray-600/40 px-6 py-8 rounded-3xl overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 scroll-smooth">
+        <div className="w-[600px] h-[700px] sm:w-[80%] bg-gray-600/40 px-6 py-8 rounded-3xl overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 scroll-smooth">
           {/* div ecommerce */}
           <article className="relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
