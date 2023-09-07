@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ModalMenu from "../ModalMenu";
+import ModalMenu from "./ModalMenu";
 
 const HeaderNavbar = () => {
   const [showMenu, setShowMenu] = useState(false);
