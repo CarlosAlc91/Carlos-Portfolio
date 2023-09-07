@@ -1,7 +1,7 @@
 import "./App.css";
-import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 
 function App() {
   return (

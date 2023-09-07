@@ -1,4 +1,4 @@
-import HeaderNavbar from "./layout/HeaderNavbar";
+import HeaderNavbar from "../components/layout/HeaderNavbar";
 
 const AboutMe = () => {
   /* states */
