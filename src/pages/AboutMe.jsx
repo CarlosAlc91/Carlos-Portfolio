@@ -9,8 +9,10 @@ const AboutMe = () => {
             I'm Carlos, a Computer Engineering student at UAEMex, also attending
             Academlo boot camp. I'm a quick learner who thrives in fast-paced
             environments. Beyond tech, I enjoy staying active, spending quality
-            time with family, and taking leisurely walks with my pet. Let's
-            connect and explore possibilities together!
+            time with family, and taking leisurely walks with my pet.
+            <br />
+            <br />
+            <b className="text-2xl"> Let's connect and explore possibilities together!</b>
           </p>
           <div className="flex flex-wrap justify-center  gap-4 py-10 text-3xl">
             <i className="bx bxl-html5"></i>
