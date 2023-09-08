@@ -27,10 +27,10 @@ const Projects = () => {
               In this project we created a shopping cart using JavaScript
               vanilla, main functions are: add items, delete items, review
               items, dark mode. Technologies used:
-              <span className="flex justify-center gap-4 py-3 ">
-                <i className="bx bxl-html5 text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-css3 text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-javascript text-3xl hover:bg-slate-500 rounded-full"></i>
+              <span className="flex justify-center items-center gap-4 py-3 ">
+                <i className="bx bxl-html5 text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-css3 text-3xl py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-javascript text-3xl py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>
@@ -56,8 +56,8 @@ const Projects = () => {
               Technologies used:
               <span className="flex justify-center gap-4 py-3">
                 <span className="flex justify-center gap-4 py-3">
-                  <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                  <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                  <i className="bx bxl-react text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                  <i className="bx bxl-tailwind-css text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
                 </span>
               </span>
             </p>
@@ -83,8 +83,8 @@ const Projects = () => {
               This simple but effective and fun app, gives random fortune quotes
               while clicking on the try luck button. Technologies used:
               <span className="flex justify-center gap-4 py-3">
-                <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-react text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-tailwind-css text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>
@@ -111,8 +111,8 @@ const Projects = () => {
               inside the input and provides real time weather info. Technologies
               used:
               <span className="flex justify-center gap-4 py-3 ">
-                <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-react text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-tailwind-css text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>
@@ -138,8 +138,8 @@ const Projects = () => {
               show all of them, simply make a quick search and those universes
               will show up with its complete information. Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
-                <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-react text-3xl   py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-tailwind-css text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>
@@ -164,8 +164,8 @@ const Projects = () => {
               This app allows to create, read, update and delete users (CRUD).
               Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
-                <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-react text-3xl text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-tailwind-css text-3xl text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>
@@ -192,8 +192,8 @@ const Projects = () => {
               needed just click on the pokemon picture and its full information
               will appear. Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
-                <i className="bx bxl-react text-3xl hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-tailwind-css text-3xl hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-react text-3xl text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+                <i className="bx bxl-tailwind-css text-3xl text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
               </span>
             </p>
           </article>

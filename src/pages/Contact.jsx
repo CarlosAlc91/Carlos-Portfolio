@@ -29,7 +29,7 @@ const Contact = () => {
         Let's talk about business
       </h1>
       <section className="flex justify-center relative z-10">
-        <div className="flex flex-col justify-center  w-[400px] h-[500px] sm:h-[800px] sm:w-[900px] bg-gray-600/40 px-6 py-9 rounded-3xl">
+        <div className="flex flex-col justify-center  w-[400px] h-[500px] sm:h-[800px] sm:w-[900px] md:w-[900px] bg-gray-600/40 px-6 py-9 rounded-3xl mx-auto">
           <form ref={form} onSubmit={sendEmail} className="font-sen capitalize">
             <div>
               <label>Name</label>
@@ -67,9 +67,23 @@ const Contact = () => {
               </button>
             </div>
           </form>
+          <section className="flex justify-center items-center gap-6 bottom-0 text-4xl pt-9 mx-auto">
+            <a
+              href="https://www.linkedin.com/in/carlos-alcantara-861ab2170/"
+              target="_blank"
+            >
+              <i className="bx bxl-linkedin p-3 text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
+            </a>
+            <a
+              href="https://github.com/CarlosAlc91?tab=repositories"
+              target="_blank"
+            >
+              <i className="bx bxl-github p-3 hover:rounded-full hover:bg-slate-500"></i>
+            </a>
+          </section>
         </div>
       </section>
-      <section className="">
+      <section className="relative">
         <img
           className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0"
           src="/images/square.png"
