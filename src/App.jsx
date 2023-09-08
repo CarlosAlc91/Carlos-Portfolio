@@ -3,7 +3,6 @@ import HeaderNavbar from "./components/layout/HeaderNavbar";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-import Studies from "./pages/Studies";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <HeaderNavbar />
       <div>
         <AboutMe />
-        <Studies />
         <Projects />
         <Contact />
       </div>
