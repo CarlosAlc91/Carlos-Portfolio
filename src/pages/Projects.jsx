@@ -1,14 +1,14 @@
 const Projects = () => {
   return (
     <article className="projects min-h-full relative px-4 py-6">
-      <h1 className="font-poppins font-semibold text-3xl py-10">
+      <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
         My last projects
       </h1>
       <section className="flex justify-center items-center relative z-10">
         {/* div container */}
         <div className="w-[600px] h-[700px] sm:w-[80%] bg-gray-600/40 px-6 py-8 rounded-3xl overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 scroll-smooth">
           {/* div ecommerce */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Academlo ecommerce
             </h3>
@@ -46,7 +46,7 @@ const Projects = () => {
           </article>
 
           {/* div todo list */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               TODO List
             </h3>
@@ -71,21 +71,22 @@ const Projects = () => {
                 </a>
               </span>
             </div>
-
-            <p className="relative text-xl font-sen font-normal ">
-              App in which you can create, read, update and delete tasks (CRUD).
-              Technologies used:
-              <span className="flex justify-center gap-4 py-3">
+            <div>
+              <p className="text-xl font-sen font-normal ">
+                App in which you can create, read, update and delete tasks
+                (CRUD). Technologies used:
                 <span className="flex justify-center gap-4 py-3">
-                  <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
-                  <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                  <span className="flex justify-center gap-4 py-3">
+                    <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                    <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                  </span>
                 </span>
-              </span>
-            </p>
+              </p>
+            </div>
           </article>
 
           {/* div fortune cookie*/}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Fortune cookie
             </h3>
@@ -122,7 +123,7 @@ const Projects = () => {
           </article>
 
           {/* weather app */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Weather app
             </h3>
@@ -161,7 +162,7 @@ const Projects = () => {
           </article>
 
           {/* rick and morthy */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Rick and Morty universes
             </h3>
@@ -199,7 +200,7 @@ const Projects = () => {
           </article>
 
           {/* http crud */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Admin app
             </h3>
@@ -236,7 +237,7 @@ const Projects = () => {
           </article>
 
           {/* pokedex */}
-          <article className="relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Pokedex
             </h3>

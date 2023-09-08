@@ -25,11 +25,11 @@ const Contact = () => {
   };
   return (
     <article className="min-h-full relative px-4 py-6">
-      <h1 className="font-poppins font-semibold text-3xl py-10 text-center">
+      <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
         Let's talk about business
       </h1>
-      <section className="flex justify-center relative z-10">
-        <div className="flex flex-col justify-center  w-[400px] h-[500px] sm:h-[800px] sm:w-[900px] md:w-[900px] bg-gray-600/40 px-6 py-9 rounded-3xl mx-auto">
+      <section className="relative z-10">
+        <div className="flex flex-col justify-center  w-auto h-[500px] sm:h-[700px] sm:w-[700px] md:w-[700px] bg-gray-600/40 px-6 rounded-3xl mx-auto">
           <form ref={form} onSubmit={sendEmail} className="font-sen capitalize">
             <div>
               <label>Name</label>

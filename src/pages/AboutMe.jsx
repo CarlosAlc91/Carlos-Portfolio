@@ -1,7 +1,9 @@
 const AboutMe = () => {
   return (
     <article id="about" className="min-h-full relative px-4 py-6">
-      <h1 className="font-poppins font-semibold text-3xl py-10">About me</h1>
+      <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
+        About me
+      </h1>
       <section className="flex justify-center items-center relative z-10 left-0 md:left-1/4">
         <div className="grid items-center h-[800px] w-[90%] sm:w-[70%] md:w-[370px] lg:w-1/2 xl:w-1/2 2xl:w-1/2 bg-gray-600/40 px-6 py-8 rounded-3xl gap-5 scroll-smooth">
           <h2 className="font-poppins font-semibold text-5xl py-10">Hi!</h2>
