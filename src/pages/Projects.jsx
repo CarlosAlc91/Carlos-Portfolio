@@ -10,15 +10,15 @@ const Projects = () => {
           {/* div ecommerce */}
           <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
-              Academlo ecommerce
+              Shopping cart
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
-                className="bottom-0 rounded-md h-[200px] hover:animate-pulse mx-auto"
+                className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
                 src="/images/ecommerce.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://shopping-cart-calcantara.netlify.app/"
@@ -27,22 +27,24 @@ const Projects = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/CarlosAlc91/Carlos-Portfolio"
+                  href="https://github.com/CarlosAlc91/eCommerce-project"
                 >
                   <i className="bx bxl-github"></i>
                 </a>
               </span>
             </div>
-            <p className="relative text-xl font-sen font-normal pt-3">
-              In this project we created a shopping cart using JavaScript
-              vanilla, main functions are: add items, delete items, review
-              items, dark mode. Technologies used:
-              <span className="flex justify-center items-center gap-4 py-3 ">
-                <i className="bx bxl-html5 text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-css3 text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
-                <i className="bx bxl-javascript text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
-              </span>
-            </p>
+            <div>
+              <p className="text-xl font-sen font-normal ">
+                Shopping cart on which you can add, delete, update items from a
+                shoppig list. Technologies used:
+                <span className="flex justify-center gap-4 py-3">
+                  <span className="flex justify-center gap-4 py-3">
+                    <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                    <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                  </span>
+                </span>
+              </p>
+            </div>
           </article>
 
           {/* div todo list */}
@@ -50,13 +52,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               TODO List
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[100px] w-[200px] hover:animate-pulse mx-auto"
                 src="/images/TODO.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://to-do-list-project-calcantara.netlify.app"
@@ -90,13 +92,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Fortune cookie
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
                 src="/images/fortuneCookie.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project1-components-props-calcantara.netlify.app"
@@ -113,8 +115,8 @@ const Projects = () => {
             </div>
 
             <p className="relative text-xl font-sen font-normal ">
-              This simple but effective and fun app, gives random fortune quotes
-              while clicking on the try luck button. Technologies used:
+              This simple but effective and fun app, gives random fortune
+              quotes. Technologies used:
               <span className="flex justify-center gap-4 py-3">
                 <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
                 <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
@@ -127,13 +129,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Weather app
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
                 src="/images/weatherApp.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project2-api-consumption-calcantara.netlify.app"
@@ -150,10 +152,8 @@ const Projects = () => {
             </div>
 
             <p className="relative text-xl font-sen font-normal ">
-              This app gets current location and shows real time weather, also
-              it can search a specific location just by typing a locaation
-              inside the input and provides real time weather info. Technologies
-              used:
+              This app gets current location and shows real time weather.
+              Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
                 <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
                 <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
@@ -166,13 +166,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Rick and Morty universes
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[200px] hover:animate-pulse mx-auto"
                 src="/images/rickMorthy.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project3-rickandmorthy-api-calcantara.netlify.app"
@@ -189,9 +189,8 @@ const Projects = () => {
             </div>
 
             <p className="relative text-xl font-sen font-normal ">
-              Ever wanted to know all Rick and Morty universes? I'm proud to
-              show all of them, simply make a quick search and those universes
-              will show up with its complete information. Technologies used:
+              App shows all universes from Rick and Morthy as well as all
+              residents. Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
                 <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
                 <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
@@ -204,13 +203,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Admin app
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
                 src="/images/crudApp.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://github.com/CarlosAlc91/project3_list_and_keys_controlled_inputs"
@@ -241,13 +240,13 @@ const Projects = () => {
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Pokedex
             </h3>
-            <div className="flex gap-5">
+            <div className="grid justify-center gap-5">
               <img
                 className="bottom-0 rounded-md h-[100px] hover:animate-pulse mx-auto"
                 src="/images/pokedex.png"
                 alt=""
               />
-              <span className="flex flex-col text-3xl justify-evenly">
+              <span className="flex text-3xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project5-pokedex-calcantara.netlify.app"
@@ -264,10 +263,8 @@ const Projects = () => {
             </div>
 
             <p className="relative text-xl font-sen font-normal pt-5">
-              Pokedex app will show all pokemons available and their information
-              such as name, stats, types of pokemons, also, if more information
-              needed just click on the pokemon picture and its full information
-              will appear. Technologies used:
+              Pokedex app will show all pokemons available and their full
+              information Technologies used:
               <span className="flex justify-center gap-4 py-3 ">
                 <i className="bx bxl-react text-3xl  px-4 hover:bg-slate-500 rounded-full"></i>
                 <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>

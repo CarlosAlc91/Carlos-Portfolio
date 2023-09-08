@@ -80,6 +80,9 @@ const Contact = () => {
             >
               <i className="bx bxl-github p-3 hover:rounded-full hover:bg-slate-500"></i>
             </a>
+            <a href="https://wa.me/525633482738">
+              <i className="bx bxl-whatsapp p-3 hover:rounded-full hover:bg-slate-500"></i>
+            </a>
           </section>
         </div>
       </section>
