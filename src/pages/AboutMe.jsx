@@ -6,7 +6,9 @@ const AboutMe = () => {
       </h1>
       <section className="flex justify-center items-center relative z-10 left-0 md:left-1/4">
         <div className="grid items-center h-[800px] w-[90%] sm:w-[70%] md:w-[370px] lg:w-1/2 xl:w-1/2 2xl:w-1/2 bg-gray-600/40 px-6 py-8 rounded-3xl gap-5 scroll-smooth">
-          <h2 className="font-poppins font-semibold text-5xl py-10">Hi!</h2>
+          <h2 className="font-poppins font-semibold text-5xl py-10">
+            Hi!
+          </h2>
           <p className="font-sen text-p-gray text-lg font-normal pl-3">
             I'm Carlos, a Computer Engineering student at UAEMex, also attending
             Academlo boot camp. I'm a quick learner who thrives in fast-paced
