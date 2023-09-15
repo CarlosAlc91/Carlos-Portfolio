@@ -1,12 +1,17 @@
 import { useState } from "react";
+import Contact from "../../pages/Contact";
 
 const Navbar = () => {
   let Links = [
     { name: "home", link: "/" },
-    { name: "about", link: "/" },
+    { name: "about", link: <Contact /> },
     { name: "projects", link: "/" },
     { name: "contact", link: "/" },
   ];
+
+  const handlerCloseMenu = () => {
+    setOpen(!open);
+  };
 
   const [open, setOpen] = useState(false);
 
@@ -20,10 +25,10 @@ const Navbar = () => {
           designer
         </div>
         <div
-          onClick={() => setOpen(!open)}
+          onClick={handlerCloseMenu}
           className="text-3xl absolute right-8 top-7 cursor-pointer md:hidden"
         >
-          <i className={`bx bx-menu ${open ? "close" : "menu"}`}></i>
+          <i className="bx bx-menu"></i>
         </div>
         <ul
           className={`md:flex md:items-center md:pb-0 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in-out`}
