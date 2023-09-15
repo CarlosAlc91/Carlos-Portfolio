@@ -4,7 +4,7 @@ const WhatsAppButton = () => {
       <div>
         <a
           className=" bg-[#0A66C2] rounded-full animate-pulse"
-          href="https://www.linkedin.com/in/carlos-alcantara-861ab2170/"
+          href="https://www.linkedin.com/in/carlos-manuel-alcantara-rodriguez-861ab2170/"
           target="_blank"
         >
           <i className="bx bxl-linkedin px-2"></i>
