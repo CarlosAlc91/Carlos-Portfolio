@@ -67,23 +67,6 @@ const Contact = () => {
               </button>
             </div>
           </form>
-          <section className="flex justify-center items-center gap-6 bottom-0 text-4xl pt-9 mx-auto">
-            <a
-              href="https://www.linkedin.com/in/carlos-alcantara-861ab2170/"
-              target="_blank"
-            >
-              <i className="bx bxl-linkedin p-3 text-3xl  py-3 px-4 hover:bg-slate-500 rounded-full"></i>
-            </a>
-            <a
-              href="https://github.com/CarlosAlc91?tab=repositories"
-              target="_blank"
-            >
-              <i className="bx bxl-github p-3 hover:rounded-full hover:bg-slate-500"></i>
-            </a>
-            <a href="https://wa.me/525633482738">
-              <i className="bx bxl-whatsapp p-3 hover:rounded-full hover:bg-slate-500"></i>
-            </a>
-          </section>
         </div>
       </section>
       <section className="relative">
