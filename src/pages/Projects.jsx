@@ -8,7 +8,7 @@ const Projects = () => {
         {/* div container */}
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth">
           {/* div ecommerce */}
-          <article className="grid justify-center items-end relative bg-white/50 rounded-md p-3">
+          <article className=" bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Shopping cart
             </h3>
