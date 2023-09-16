@@ -1,14 +1,14 @@
 const Projects = () => {
   return (
-    <article className="projects min-h-full relative px-4 py-6">
+    <article className="projects   px-4 py-6">
       <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
         My last projects
       </h1>
-      <section className="flex justify-center items-center relative z-10">
+      <section className="w-full mx-auto relative z-10">
         {/* div container */}
-        <div className="w-[600px] h-[700px] sm:w-[80%] bg-gray-600/40 px-6 py-8 rounded-3xl overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5 scroll-smooth">
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth">
           {/* div ecommerce */}
-          <article className="grid justify-center items-center relative bg-white/50 rounded-md p-3">
+          <article className="grid justify-center items-end relative bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Shopping cart
             </h3>
@@ -39,8 +39,9 @@ const Projects = () => {
                 shoppig list. Technologies used:
                 <span className="flex justify-center gap-4 py-3">
                   <span className="flex justify-center gap-4 py-3">
-                    <i className="bx bxl-react text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
-                    <i className="bx bxl-tailwind-css text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                    <i className="bx bxl-html5 text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                    <i className="bx bxl-css3 text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
+                    <i className="bx bxl-javascript text-3xl px-4 hover:bg-slate-500 rounded-full"></i>
                   </span>
                 </span>
               </p>
