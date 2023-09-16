@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <article className="projects relative  px-4 py-6">
+    <article className="h-full projects relative  px-4 py-6">
       <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
         My last projects
       </h1>

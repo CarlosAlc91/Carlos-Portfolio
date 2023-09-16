@@ -24,7 +24,7 @@ const Contact = () => {
       );
   };
   return (
-    <article className="min-h-full relative px-4 py-6">
+    <article className="h-screen relative px-4 py-6">
       <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
         Let's talk about business
       </h1>
