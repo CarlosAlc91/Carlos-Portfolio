@@ -10,12 +10,10 @@ function App() {
   return (
     <main className="min-h-screen overflow-x-hidden overflow-y-hidden bg-bg-main text-white">
       <HeaderNavbar />
-
       <AboutMe />
       <Technologies />
       <Projects />
       <Contact />
-
       <WhatsAppButton />
     </main>
   );
