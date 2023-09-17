@@ -7,7 +7,7 @@ const Technologies = () => {
           href="/docs/CarlosResume.pdf"
           target="_blank"
         >
-          <i class="bx bxs-download animate-bounce"></i>
+          <i className="bx bxs-download animate-bounce"></i>
           <p>Resume</p>
         </a>
       </div>

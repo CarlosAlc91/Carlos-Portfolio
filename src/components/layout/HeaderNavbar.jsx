@@ -39,7 +39,7 @@ const HeaderNavbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="my-4 md:my-0 md:ml-8 font-semibold">
-              <Link to={`/${link?.name}`} scrollTo={`#${link?.name}`}>
+              <Link to={`/${link?.name}`} scrollto={`#${link?.name}`}>
                 {link?.name}
               </Link>
             </li>
