@@ -1,6 +1,9 @@
 const AboutMe = () => {
   return (
-    <article className="h-full flex flex-col md:flex-row justify-evenly items-center px-8 py-40">
+    <article
+      id="about"
+      className="h-full flex flex-col md:flex-row justify-evenly items-center px-8 py-40"
+    >
       <div className="mb-8 md:mb-0">
         <img src="/images/circle.png" alt="circle" />
       </div>

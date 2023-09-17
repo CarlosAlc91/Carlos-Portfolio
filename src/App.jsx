@@ -6,6 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Technologies from "./pages/Technologies";
+import { Router, Route } from "react-router-dom";
 
 function App() {
   return (

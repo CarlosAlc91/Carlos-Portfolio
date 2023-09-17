@@ -1,6 +1,6 @@
 const Technologies = () => {
   return (
-    <section className="w-full h-full mx-auto px-6 py-6">
+    <section id="technologies" className="w-full h-full mx-auto px-6 py-6">
       <div className="max-w-max  px-10 py-3 mx-auto text-center border text-4xl rounded-full font-poppins font-semibold cursor-pointer bg-white/50 hover:bg-gray-100/40 transition-color hover:scale-110 duration-150 delay-200 transform">
         <a
           className="flex items-center justify-center gap-3"

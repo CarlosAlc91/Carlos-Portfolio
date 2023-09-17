@@ -1,13 +1,14 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const Links = [
-    { name: "about", link: "/" },
-    { name: "technologies", link: "/" },
-    { name: "projects", link: "/" },
-    { name: "contact", link: "/" },
+    { name: "about", link: "#about" },
+    { name: "technologies", link: "#technologies" },
+    { name: "projects", link: "#projects" },
+    { name: "contact", link: "#contact" },
   ];
 
   return (
@@ -24,21 +25,23 @@ const HeaderNavbar = () => {
           className="text-4xl absolute right-8 top-6 cursor-pointer md:hidden"
         >
           {isOpen ? (
-            <i className="bx bx-menu "></i>
+            <i className="bx bx-x "></i>
           ) : (
-            <i className="bx bx-x"></i>
+            <i className="bx bx-menu"></i>
           )}
         </div>
 
         {/* links */}
         <ul
           className={`md:flex md:justify-end pl-9 md:pl-0 md:items-center md:pb-0 pb-12 absolute md:z-auto z-[-1] right-0 w-full transition-all bg-white duration-500 ease-in ${
-            isOpen ? "hidden" : "visible"
+            isOpen ? "visible" : "hidden"
           }`}
         >
           {Links.map((link) => (
-            <li className="my-4 md:my-0 md:ml-8 font-semibold">
-              <a href="/">{link.name}</a>
+            <li key={link.name} className="my-4 md:my-0 md:ml-8 font-semibold">
+              <Link to={`/${link?.name}`} scrollTo={`#${link?.name}`}>
+                {link?.name}
+              </Link>
             </li>
           ))}
         </ul>
