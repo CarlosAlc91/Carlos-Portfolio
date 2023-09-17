@@ -1,16 +1,6 @@
 const Technologies = () => {
   return (
     <section id="technologies" className="w-full h-full mx-auto px-6 py-6">
-      <div className="max-w-max  px-10 py-3 mx-auto text-center border text-4xl rounded-full font-poppins font-semibold cursor-pointer bg-white/50 hover:bg-gray-100/40 transition-color hover:scale-110 duration-150 delay-200 transform">
-        <a
-          className="flex items-center justify-center gap-3"
-          href="/docs/CarlosResume.pdf"
-          target="_blank"
-        >
-          <i className="bx bxs-download animate-bounce"></i>
-          <p>Resume</p>
-        </a>
-      </div>
       <h1 className="font-poppins px-10 py-20 text-4xl font-semibold">
         Technologies
       </h1>

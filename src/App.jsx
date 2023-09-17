@@ -11,7 +11,7 @@ import { Router, Route } from "react-router-dom";
 function App() {
   return (
     <main className="min-h-screen overflow-x-hidden overflow-y-hidden bg-bg-main text-white">
-      <HeaderNavbar />
+      {/* <HeaderNavbar /> */}
       <Hero />
       <AboutMe />
       <Technologies />

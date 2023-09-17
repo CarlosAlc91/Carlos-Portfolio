@@ -1,17 +1,25 @@
 const Hero = () => {
   return (
-    <article className="relative flex justify-center items-center h-screen w-full mx-auto">
-      <div className="flex justify-center items-center absolute bg-contain bg-center text-center w-full h-screen mx-auto">
-        <img src="/images/AIBanner.jpg" alt="" />
-      </div>
-      <span className="flex justify-center items-center absolute text-white text-9xl font-poppins font-semibold">
-        <h1>
-          Carlos Alcantara <br /> Jr. front-end developer
-        </h1>
-      </span>
-      <button className="absolute bottom-32 border p-5 px-8 rounded-xl">
-        <a href="#about">Get to know me</a>
-      </button>
+    <article className="w-full h-screen bg-[#f3f5f8] font-poppins text-black">
+      <nav className="flex w-full justify-around h-20 z-[111] bg-red leading-[80px]">
+        <div className="flex text-4xl font-semibold text-[#3d535f] tracking-[3px] cursor-pointer uppercase">
+          Carlos
+        </div>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#technologies">Technologies</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </article>
   );
 };
