@@ -5,11 +5,11 @@ const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [text] = useTypewriter({
     words: [
-      "_Jr. front-end developer",
-      "_comper engineer student",
-      "_fast-paced worker",
-      "_adaptable person",
-      "_with desire to learn",
+      "Jr. front-end developer",
+      "comper engineer student",
+      "fast-paced worker",
+      "adaptable person",
+      "with desire to learn",
     ],
     loop: {},
     typeSpeed: 120,
@@ -58,7 +58,7 @@ const Hero = () => {
         <section className="flex flex-1 items-center">
           <div className="text-center mx-auto">
             <h1 className="text-6xl md:text-8xl font-semibold font-poppins">
-              carlos is...
+              carlos is<span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
                 {text}
