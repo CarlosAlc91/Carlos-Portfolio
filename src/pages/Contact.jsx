@@ -24,19 +24,27 @@ const Contact = () => {
       );
   };
   return (
-    <article id="contact" className="h-screen relative px-4 py-6">
-      <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
-        Let's talk about business
-      </h1>
+    <article
+      id="contact"
+      className="md:h-screen mx-auto projects relative px-4 py-6"
+    >
       <section className="relative z-10">
-        <div className="flex flex-col justify-center  w-auto h-[500px] sm:h-[700px] sm:w-[700px] md:w-[700px] bg-gray-600/40 px-6 rounded-3xl mx-auto">
-          <form ref={form} onSubmit={sendEmail} className="font-sen capitalize">
+        <h1 className="font-poppins font-semibold text-4xl py-5 px-10 md:text-6xl">
+          Let's talk about business
+        </h1>
+        <div className="flex flex-col justify-center items-center py-10 w-full h-1/2  md:w-1/2 bg-gray-600/40 px-6 rounded-3xl mx-auto">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col gap-3 font-sen capitalize"
+          >
             <div>
               <label>Name</label>
               <input
                 type="text"
                 name="user_name"
-                className=" bg-purple rounded-lg w-full"
+                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                placeholder="name"
                 required
               />
             </div>
@@ -45,7 +53,18 @@ const Contact = () => {
               <input
                 type="email"
                 name="user_email"
-                className=" bg-purple rounded-lg w-full"
+                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                placeholder="email"
+                required
+              />
+            </div>
+            <div>
+              <label>subject</label>
+              <input
+                type="text"
+                name="subject"
+                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                placeholder="subject"
                 required
               />
             </div>
@@ -54,7 +73,8 @@ const Contact = () => {
               <textarea
                 type="text"
                 name="message"
-                className="h-28 bg-purple rounded-lg w-full"
+                className="h-28 bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                placeholder="message"
                 required
               />
             </div>
@@ -69,9 +89,9 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      <section className="relative">
+      <section>
         <img
-          className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0"
+          className="absolute -left-[55%] bottom-8 md:left-1/2 md:bottom-[100px] lg:-left-8 lg:-bottom-0 animate-animateUser"
           src="/images/square.png"
           alt=""
         />
@@ -80,5 +100,3 @@ const Contact = () => {
   );
 };
 export default Contact;
-
-<input type="submit" value="Send" className="cursor-pointer" />;

@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
-    <article id="projects" className="h-full projects relative  px-4 py-6">
-      <h1 className="font-poppins font-semibold text-4xl py-20 px-10">
+    <article id="projects" className="mx-auto projects relative px-4 py-6">
+      <h1 className="font-poppins font-semibold text-4xl py-20 px-10 md:text-6xl">
         My last projects
       </h1>
       <section className="w-full mx-auto relative z-10">
@@ -276,7 +276,7 @@ const Projects = () => {
       </section>
       <section>
         <img
-          className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0"
+          className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0 animate-animateUser"
           src="/images/triangle.png"
           alt=""
         />
