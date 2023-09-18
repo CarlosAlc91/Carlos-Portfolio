@@ -26,10 +26,10 @@ const Hero = () => {
       <section className="flex flex-col h-screen bg-hero bg-center bg-cover bg-blend-overlay bg-fixed bg-black/20">
         {/* navbar */}
         <section className="py-5 bg-slate-800">
-          <div className="mx-auto relative px-5 max-w-screen-xl w-full">
+          <div className="md:flex md:justify-between mx-auto relative px-5 max-w-screen-xl w-full">
             {/* navbar logo all classes to be centered */}
-            <div className=" flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
-              Carlos Alcantara
+            <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
+              Carlos
             </div>
             <div
               className="absolute top-0 right-0 text-3xl px-4 md:hidden cursor-pointer"
@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
             {/* menu */}
             <nav
-              className={`flex flex-col md:flex-row py-3 gap-6 ${
+              className={`flex flex-col md:flex-row py-3 gap-6 md:text-4xl${
                 isOpen ? "visible" : "invisible"
               }}`}
             >
