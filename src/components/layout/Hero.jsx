@@ -1,25 +1,36 @@
+import { useState } from "react";
+
 const Hero = () => {
+  
   return (
-    <article className="w-full h-screen bg-[#f3f5f8] font-poppins text-black">
-      <nav className="flex w-full justify-around h-20 z-[111] bg-red leading-[80px]">
-        <div className="flex text-4xl font-semibold text-[#3d535f] tracking-[3px] cursor-pointer uppercase">
-          Carlos
+    <article>
+      
+      {/* WRAPPER */}
+      <div className="flex  h-screen mx-auto justify-center items-center py-0 px-[10%] overflow-hidden bg-white">
+        {/* COLS 0*/}
+        <div className=" w-1/2 mx-auto bg-green-400">
+          <span className="text-4xl tracking-[15px] text-[#3d535f] border border-black">
+            Hi
+          </span>
+          <h1 className="flex flex-wrap mx-auto text-8xl font-extrabold text-[#3d535f]">
+            I'm <span className="text-[#7f00ff] capitalize">coder</span>
+          </h1>
+
+          <p className="block text-xl text-[#3d535f]">
+            Jr. front-end developer
+          </p>
+          <div className="w-full left-40">
+            <button className="outline-none text-3xl font-medium text-white bg-[#3d535f] py-2 px-3 my-10 mx-1 tracking-[2px]  capitalize shadow-2xl hover:bg-[#7f00ff]">
+              Resuem
+            </button>
+            <button className="outline-none text-3xl font-medium text-white bg-[#3d535f] py-2 px-3 my-10 mx-1 tracking-[2px]  capitalize shadow-2xl hover:bg-[#7f00ff]">
+              Hire me
+            </button>
+          </div>
         </div>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#technologies">Technologies</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        {/* COLS 1 */}
+        
+      </div>
     </article>
   );
 };

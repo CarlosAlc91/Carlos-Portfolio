@@ -14,7 +14,19 @@ export default {
         'red': '#E40037',
         'blue': '#0C08B1',
         'p-gray': '#8F8F8F',
-      }
+      },
+
+      keyframes: {
+        animateUser: {
+          '50%': {
+            transform: 'translateX(20px) translateY(-30px)'
+          }
+        }
+      },
+
+      animation: {
+        'animateUser': 'animateUser 4s linear infinite'
+      },
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
@@ -22,7 +34,8 @@ export default {
     }
   },
   plugins: [
-    require('flowbite/plugin')
+
   ],
 }
+
 
