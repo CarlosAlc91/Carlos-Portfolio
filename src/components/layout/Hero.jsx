@@ -1,36 +1,80 @@
 import { useState } from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
-  
-  return (
-    <article>
-      
-      {/* WRAPPER */}
-      <div className="flex  h-screen mx-auto justify-center items-center py-0 px-[10%] overflow-hidden bg-white">
-        {/* COLS 0*/}
-        <div className=" w-1/2 mx-auto bg-green-400">
-          <span className="text-4xl tracking-[15px] text-[#3d535f] border border-black">
-            Hi
-          </span>
-          <h1 className="flex flex-wrap mx-auto text-8xl font-extrabold text-[#3d535f]">
-            I'm <span className="text-[#7f00ff] capitalize">coder</span>
-          </h1>
+  const [isOpen, setIsOpen] = useState(false);
+  const [text] = useTypewriter({
+    words: [
+      "_Jr. front-end developer",
+      "_comper engineer student",
+      "_fast-paced worker",
+      "_adaptable person",
+      "_with desire to learn",
+    ],
+    loop: {},
+    typeSpeed: 120,
+  });
 
-          <p className="block text-xl text-[#3d535f]">
-            Jr. front-end developer
-          </p>
-          <div className="w-full left-40">
-            <button className="outline-none text-3xl font-medium text-white bg-[#3d535f] py-2 px-3 my-10 mx-1 tracking-[2px]  capitalize shadow-2xl hover:bg-[#7f00ff]">
-              Resuem
-            </button>
-            <button className="outline-none text-3xl font-medium text-white bg-[#3d535f] py-2 px-3 my-10 mx-1 tracking-[2px]  capitalize shadow-2xl hover:bg-[#7f00ff]">
-              Hire me
-            </button>
+  const handlerIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    /* htmls body */
+    <article>
+      {/* hero section */}
+      <section className="flex flex-col h-screen bg-hero bg-center bg-cover bg-blend-overlay bg-fixed bg-black/20">
+        {/* navbar */}
+        <section className="py-5 bg-slate-800">
+          <div className="mx-auto relative px-5 max-w-screen-xl w-full">
+            {/* navbar logo all classes to be centered */}
+            <div className=" flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
+              Carlos Alcantara
+            </div>
+            <div
+              className="absolute top-0 right-0 text-3xl px-4 md:hidden cursor-pointer"
+              onClick={handlerIsOpen}
+            >
+              {isOpen ? (
+                <i className="bx bx-x "></i>
+              ) : (
+                <i className="bx bx-menu"></i>
+              )}
+            </div>
+            {/* menu */}
+            <nav
+              className={`flex flex-col md:flex-row py-3 gap-6 ${
+                isOpen ? "visible" : "invisible"
+              }}`}
+            >
+              <a href="#about">About</a>
+              <a href="#technologies">Technologies</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </nav>
           </div>
-        </div>
-        {/* COLS 1 */}
-        
-      </div>
+        </section>
+        {/* hero content*/}
+        <section className="flex flex-1 items-center">
+          <div className="text-center mx-auto">
+            <h1 className="text-6xl md:text-8xl font-semibold font-poppins">
+              carlos is...
+              <br />
+              <span className="text-3xl font-light md:text-4xl mt-5">
+                {text}
+              </span>
+              <Cursor cursorColor="red" />
+            </h1>
+            <a
+              className="w-1/2 mx-auto px-5 py-2 inline-block bg-slate-800 hover:bg-slate-400 transition-colors mt-10 rounded-lg"
+              href="/docs/CarlosResume.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </div>
+        </section>
+      </section>
     </article>
   );
 };

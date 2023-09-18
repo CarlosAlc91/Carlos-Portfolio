@@ -1,57 +1,7 @@
-import { useState } from "react";
-
 const AboutMe = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
-    <article id="about" className="h-screen w-full mx-auto px-8">
-      <nav className="w-full mx-auto md:justify-between z-[111] bg-gray-500 leading-[80px] text-black">
-        <div
-          onClick={() => setIsOpen(!isOpen)}
-          className="text-4xl font-semibold text-white tracking-[3px] cursor-pointer uppercase px-4"
-        >
-          Carlos<b className="text-6xl text-[#7f00ff]">_</b>
-          {isOpen ? (
-            <i className="bx bx-x md:hidden"></i>
-          ) : (
-            <i className="bx bx-menu md:hidden"></i>
-          )}
-        </div>
-        <ul className={`md:flex ${isOpen ? "visible" : "hidden"}`}>
-          <li className="list-none my-0 mx-[15px]">
-            <a
-              className="text-2xl text-[#3d533f] hover:text-[#7f00ff] tracking-[3px] capitalize"
-              href="#about"
-            >
-              About
-            </a>
-          </li>
-          <li className="list-none my-0 mx-[15px]">
-            <a
-              className="text-2xl text-[#3d533f] hover:text-[#7f00ff] tracking-[3px] capitalize"
-              href="#technologies"
-            >
-              Technologies
-            </a>
-          </li>
-          <li className="list-none my-0 mx-[15px]">
-            <a
-              className="text-2xl text-[#3d533f] hover:text-[#7f00ff] tracking-[3px] capitalize"
-              href="#projects"
-            >
-              Projects
-            </a>
-          </li>
-          <li className="list-none my-0 mx-[15px]">
-            <a
-              className="text-2xl text-[#3d533f] hover:text-[#7f00ff] tracking-[3px] capitalize"
-              href="#contact"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div className="flex flex-col md:flex-row gap-4 items-center">
+    <article id="about" className="w-full mx-auto px-8">
+      <div className="flex flex-col w-full md:h-screen md:flex-row gap-4 items-center">
         <div className="mb-8 md:mb-0">
           <img src="/images/circle.png" alt="circle" />
         </div>

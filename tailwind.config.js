@@ -27,6 +27,10 @@ export default {
       animation: {
         'animateUser': 'animateUser 4s linear infinite'
       },
+
+      backgroundImage: {
+        'hero': "url('/images/CarlosAlcantara.png')"
+      }
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
