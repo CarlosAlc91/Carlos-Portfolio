@@ -29,7 +29,7 @@ export default {
       },
 
       backgroundImage: {
-        'laptop': "url('images/laptop.png')"
+        'laptop': "url('/images/laptop.png')"
       }
     },
     fontFamily: {
