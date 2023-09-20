@@ -16,20 +16,20 @@ const Hero = () => {
   });
 
   /* const handlerIsOpen = () => {
-    setIsOpen((isOpen) => !isOpen);
-  }; */
+      setIsOpen((isOpen) => !isOpen);
+    }; */
 
   return (
     /* htmls body */
     <article>
       {/* hero section */}
-      <section className="flex flex-col h-screen bg-hero bg-center bg-cover bg-blend-overlay bg-fixed bg-black/20">
+      <section className="flex flex-col h-screen bg-hero bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/40">
         {/* navbar */}
-        <section className="py-5 bg-slate-800">
-          <div className="md:flex md:justify-between mx-auto relative px-5 max-w-screen-xl w-full">
+        <section className="fixed z-[100] w-full mx-auto py-5 bg-slate-800">
+          <div className="md:flex md:justify-between mx-auto  px-5 max-w-screen-xl w-full">
             {/* navbar logo all classes to be centered */}
             <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
-              Carlos
+              Carlos<span className="animate-ping">_</span>
             </div>
 
             {/* menu */}
@@ -46,7 +46,7 @@ const Hero = () => {
               </div>
               <nav>
                 <ul
-                  className={`flex md:flex-row py-3 gap-6 md:text-xl  ${
+                  className={`flex md:flex-row py-3 gap-6 md:text-xl ${
                     isOpen ? "flex-col visible" : "invisible md:visible"
                   }`}
                 >
@@ -59,6 +59,7 @@ const Hero = () => {
             </div>
           </div>
         </section>
+
         {/* hero content*/}
         <section className="flex flex-1 items-center">
           <div className="text-center mx-auto">
