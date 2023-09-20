@@ -16,7 +16,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("message ssent");
+          alert("message sent");
         },
         (error) => {
           console.log(error.text);
@@ -26,54 +26,54 @@ const Contact = () => {
   return (
     <article
       id="contact"
-      className="md:h-screen mx-auto projects relative px-4 py-6"
+      className="md:h-screen mx-auto projects relative px-6 py-10"
     >
       <section className="relative z-10">
-        <h1 className="font-poppins font-semibold text-4xl py-5 px-10 md:text-6xl">
+        <h1 className="font-poppins font-semibold text-4xl py-5 my- px-10 md:text-6xl">
           Let's talk about business
         </h1>
-        <div className="flex flex-col justify-center items-center py-10 w-full h-1/2  md:w-1/2 bg-gray-600/40 px-6 rounded-3xl mx-auto">
+        <div className="flex flex-col justify-center items-center py-6 md:py-6 md:w-1/2 lg:w-1/2 bg-gray-600/40 px-6 rounded-3xl mx-auto">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col gap-3 font-sen capitalize"
+            className="flex flex-col gap-6 font-sen capitalize"
           >
             <div>
-              <label>Name</label>
+              <label className="text-2xl md:text-4xl">Name</label>
               <input
                 type="text"
                 name="user_name"
-                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                className=" bg-purple rounded-lg w-full py-1 placeholder:italic placeholder:text-xl px-4"
                 placeholder="name"
                 required
               />
             </div>
             <div>
-              <label>email</label>
+              <label className=" text-2xl md:text-4xl">email</label>
               <input
                 type="email"
                 name="user_email"
-                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                className=" bg-purple rounded-lg w-full py-1 placeholder:italic placeholder:text-xl px-4"
                 placeholder="email"
                 required
               />
             </div>
             <div>
-              <label>subject</label>
+              <label className="text-2xl md:text-4xl">subject</label>
               <input
                 type="text"
                 name="subject"
-                className=" bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                className=" bg-purple rounded-lg w-full py-1 placeholder:italic placeholder:text-xl px-4"
                 placeholder="subject"
                 required
               />
             </div>
             <div>
-              <label>message</label>
+              <label className="text-2xl md:text-4xl">message</label>
               <textarea
                 type="text"
                 name="message"
-                className="h-28 bg-purple rounded-lg w-full placeholder:italic placeholder:px-3"
+                className="h-28 bg-purple rounded-lg w-full py-1 placeholder:italic placeholder:text-xl px-4"
                 placeholder="message"
                 required
               />
