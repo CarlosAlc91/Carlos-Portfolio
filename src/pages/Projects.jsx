@@ -6,19 +6,24 @@ const Projects = () => {
       </h1>
       <section className="w-full mx-auto relative z-10">
         {/* div container */}
-        <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth">
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth justify-center w-full mx-auto">
           {/* div ecommerce */}
           <article className=" bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">
               Shopping cart
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
-                src="/images/ecommerce.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://shopping-cart-calcantara.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
+                  src="/images/ecommerce.png"
+                  alt=""
+                />
+              </a>
+              <span className="flex text-4xl md:text-5xl justify-between">
                 <a
                   target="_blank"
                   href="https://shopping-cart-calcantara.netlify.app/"
@@ -54,12 +59,18 @@ const Projects = () => {
               TODO List
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[100px] w-[200px] hover:animate-pulse mx-auto"
-                src="/images/TODO.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://to-do-list-project-calcantara.netlify.app"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[100px] w-[200px] hover:animate-pulse mx-auto"
+                  src="/images/TODO.png"
+                  alt=""
+                />
+              </a>
+
+              <span className="flex text-4xl md:text-5xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://to-do-list-project-calcantara.netlify.app"
@@ -94,12 +105,18 @@ const Projects = () => {
               Fortune cookie
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
-                src="/images/fortuneCookie.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://project1-components-props-calcantara.netlify.app"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
+                  src="/images/fortuneCookie.png"
+                  alt=""
+                />
+              </a>
+
+              <span className="flex text-4xl md:text-5xl justify-between">
                 <a
                   target="_blank"
                   href="https://project1-components-props-calcantara.netlify.app"
@@ -131,12 +148,17 @@ const Projects = () => {
               Weather app
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
-                src="/images/weatherApp.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://project2-api-consumption-calcantara.netlify.app"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
+                  src="/images/weatherApp.png"
+                  alt=""
+                />
+              </a>
+              <span className="flex text-4xl md:text-5xl justify-between">
                 <a
                   target="_blank"
                   href="https://project2-api-consumption-calcantara.netlify.app"
@@ -168,12 +190,17 @@ const Projects = () => {
               Rick and Morty universes
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[200px] hover:animate-pulse mx-auto"
-                src="/images/rickMorthy.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://project3-rickandmorthy-api-calcantara.netlify.app"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[200px] hover:animate-pulse mx-auto"
+                  src="/images/rickMorthy.png"
+                  alt=""
+                />
+              </a>
+              <span className="flex text-4xl md:text-5xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project3-rickandmorthy-api-calcantara.netlify.app"
@@ -205,21 +232,26 @@ const Projects = () => {
               Admin app
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
-                src="/images/crudApp.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://github.com/CarlosAlc91/project4_HTTP_verbs"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[150px] hover:animate-pulse mx-auto"
+                  src="/images/crudApp.png"
+                  alt=""
+                />
+              </a>
+              <span className="flex text-4xl md:text-5xl justify-evenly">
                 <a
                   target="_blank"
-                  href="https://github.com/CarlosAlc91/project3_list_and_keys_controlled_inputs"
+                  href="https://github.com/CarlosAlc91/project4_HTTP_verbs"
                 >
                   <i className="bx bxl-netlify"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/CarlosAlc91/project4_HTTP_verbs"
+                  href="https://github.com/CarlosAlc91/project3_list_and_keys_controlled_inputs"
                 >
                   <i className="bx bxl-github"></i>
                 </a>
@@ -242,12 +274,17 @@ const Projects = () => {
               Pokedex
             </h3>
             <div className="grid justify-center gap-5">
-              <img
-                className="bottom-0 rounded-md h-[100px] hover:animate-pulse mx-auto"
-                src="/images/pokedex.png"
-                alt=""
-              />
-              <span className="flex text-3xl justify-evenly">
+              <a
+                href="https://project5-pokedex-calcantara.netlify.app"
+                target="_blank"
+              >
+                <img
+                  className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300 bottom-0 rounded-md h-[135px] hover:animate-pulse mx-auto"
+                  src="/images/pokedex.png"
+                  alt=""
+                />
+              </a>
+              <span className="flex text-4xl md:text-5xl justify-evenly">
                 <a
                   target="_blank"
                   href="https://project5-pokedex-calcantara.netlify.app"
