@@ -9,10 +9,11 @@ const Hero = () => {
       "comper engineer student",
       "fast-paced worker",
       "adaptable person",
-      "with desire to learn",
+      "and with desire to learn",
     ],
     loop: {},
-    typeSpeed: 120,
+    typeSpeed: 125,
+    fontSize: "3rem",
   });
 
   /* const handlerIsOpen = () => {
@@ -29,7 +30,7 @@ const Hero = () => {
           <div className="md:flex md:justify-between mx-auto  px-5 max-w-screen-xl w-full">
             {/* navbar logo all classes to be centered */}
             <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
-              Carlos<span className="animate-ping">_</span>
+              Carlos<span className="animate-ping text-xs md:text-xl">_</span>
             </div>
 
             {/* menu */}
@@ -46,7 +47,7 @@ const Hero = () => {
               </div>
               <nav>
                 <ul
-                  className={`flex md:flex-row py-3 gap-6 md:text-xl ${
+                  className={`flex md:flex-row py-3 gap-6 md:text-2xl ${
                     isOpen ? "flex-col visible" : "invisible md:visible"
                   }`}
                 >
@@ -63,13 +64,13 @@ const Hero = () => {
         {/* hero content*/}
         <section className="flex flex-1 items-center">
           <div className="text-center mx-auto">
-            <h1 className="text-6xl md:text-8xl font-semibold font-poppins">
+            <h1 className="text-5xl md:text-8xl font-semibold font-poppins">
               who am I?<span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
                 {text}
               </span>
-              <Cursor cursorColor="red" />
+              <Cursor cursorColor="gray" cursorStyle="" />
             </h1>
             <a
               className="w-1/2 mx-auto px-5 py-2 inline-block bg-slate-800 hover:bg-slate-400 transition-colors mt-10 rounded-lg"
