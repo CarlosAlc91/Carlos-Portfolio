@@ -15,9 +15,9 @@ const Hero = () => {
     typeSpeed: 120,
   });
 
-  const handlerIsOpen = () => {
-    setIsOpen(!isOpen);
-  };
+  /* const handlerIsOpen = () => {
+    setIsOpen((isOpen) => !isOpen);
+  }; */
 
   return (
     /* htmls body */
@@ -31,34 +31,39 @@ const Hero = () => {
             <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
               Carlos
             </div>
-            <div
-              className="absolute top-0 right-0 text-3xl px-4 md:hidden cursor-pointer"
-              onClick={handlerIsOpen}
-            >
-              {isOpen ? (
-                <i className="bx bx-x "></i>
-              ) : (
-                <i className="bx bx-menu"></i>
-              )}
-            </div>
+
             {/* menu */}
-            <nav
-              className={`flex flex-col md:flex-row py-3 gap-6 md:text-4xl${
-                isOpen ? "visible" : "invisible"
-              }}`}
-            >
-              <a href="#about">About</a>
-              <a href="#technologies">Technologies</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
-            </nav>
+            <div>
+              <div
+                className="absolute top-0 right-0 text-3xl px-4 md:hidden cursor-pointer"
+                onClick={() => setIsOpen((isOpen) => !isOpen)}
+              >
+                {isOpen ? (
+                  <i className="bx bx-x"></i>
+                ) : (
+                  <i className="bx bx-menu"></i>
+                )}
+              </div>
+              <nav>
+                <ul
+                  className={`flex md:flex-row py-3 gap-6 md:text-xl  ${
+                    isOpen ? "flex-col visible" : "invisible md:visible"
+                  }`}
+                >
+                  <a href="#about">About</a>
+                  <a href="#technologies">Technologies</a>
+                  <a href="#projects">Projects</a>
+                  <a href="#contact">Contact</a>
+                </ul>
+              </nav>
+            </div>
           </div>
         </section>
         {/* hero content*/}
         <section className="flex flex-1 items-center">
           <div className="text-center mx-auto">
             <h1 className="text-6xl md:text-8xl font-semibold font-poppins">
-              carlos is<span className="animate-ping">_</span>
+              who am I?<span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
                 {text}
