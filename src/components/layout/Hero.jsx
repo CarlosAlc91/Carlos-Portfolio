@@ -26,17 +26,17 @@ const Hero = () => {
       {/* hero section */}
       <section className="flex flex-col h-screen bg-laptop bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/70">
         {/* navbar */}
-        <section className="fixed z-[100] w-full mx-auto py-5 bg-gray-600/80 rounded-b-lg">
-          <div className="md:flex md:justify-between mx-auto  px-5 max-w-screen-xl w-full">
+        <section className="fixed z-[100] w-full mx-auto md:py-3 bg-gray-600/80 rounded-b-lg">
+          <div className="md:flex md:justify-between md:items-center mx-auto w-full px-5">
             {/* navbar logo all classes to be centered */}
-            <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
-              Carlos<span className="animate-ping text-xs md:text-xl">_</span>
-            </div>
+            <div className="flex justify-between items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
+              <div className="flex items-center">
+                <img className="h-10 md:h-16" src="/images/logo.png" alt="" />
+                Carlos<span className="animate-ping text-xs md:text-xl">_</span>
+              </div>
 
-            {/* menu */}
-            <div>
               <div
-                className="absolute top-0 right-0 text-3xl px-4 md:hidden cursor-pointer"
+                className="flex text-3xl px-4 md:hidden cursor-pointer"
                 onClick={() => setIsOpen((isOpen) => !isOpen)}
               >
                 {isOpen ? (
@@ -45,12 +45,19 @@ const Hero = () => {
                   <i className="bx bx-menu"></i>
                 )}
               </div>
+            </div>
+
+            {/* menu */}
+            <div>
               <nav>
                 <ul
-                  className={`flex md:flex-row py-3 gap-6 md:text-2xl ${
-                    isOpen ? "flex-col visible" : "invisible md:visible"
+                  className={`flex gap-6 md:text-2xl md:pr-1 ${
+                    isOpen
+                      ? "flex-col md:flex-row md:items-center visible"
+                      : "invisible md:visible"
                   }`}
                 >
+                  <a href="/">Home</a>
                   <a href="#about">About</a>
                   <a href="#technologies">Technologies</a>
                   <a href="#projects">Projects</a>
