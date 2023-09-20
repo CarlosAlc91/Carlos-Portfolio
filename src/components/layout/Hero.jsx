@@ -51,17 +51,42 @@ const Hero = () => {
             <div>
               <nav>
                 <ul
-                  className={`flex gap-6 md:text-2xl md:pr-1 ${
+                  className={`flex gap-6 text-xl md:text-xl md:pr-1  ${
                     isOpen
                       ? "flex-col md:flex-row md:items-center visible"
                       : "invisible md:visible"
                   }`}
                 >
-                  <a href="/">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#technologies">Technologies</a>
-                  <a href="#projects">Projects</a>
-                  <a href="#contact">Contact</a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="#about"
+                  >
+                    About
+                  </a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="#technologies"
+                  >
+                    Technologies
+                  </a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="#projects"
+                  >
+                    Projects
+                  </a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="#contact"
+                  >
+                    Contact
+                  </a>
                 </ul>
               </nav>
             </div>
