@@ -23,9 +23,9 @@ const Hero = () => {
     /* htmls body */
     <article>
       {/* hero section */}
-      <section className="flex flex-col h-screen bg-hero bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/40">
+      <section className="flex flex-col h-screen bg-laptop bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/70">
         {/* navbar */}
-        <section className="fixed z-[100] w-full mx-auto py-5 bg-slate-800">
+        <section className="fixed z-[100] w-full mx-auto py-5 bg-gray-600/80 rounded-b-lg">
           <div className="md:flex md:justify-between mx-auto  px-5 max-w-screen-xl w-full">
             {/* navbar logo all classes to be centered */}
             <div className="flex items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">

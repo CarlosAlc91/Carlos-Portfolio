@@ -29,7 +29,7 @@ export default {
       },
 
       backgroundImage: {
-        'hero': "url('/images/CarlosAlcantara.png')"
+        'laptop': "url('images/laptop.png')"
       }
     },
     fontFamily: {
