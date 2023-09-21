@@ -1,32 +1,39 @@
 const WhatsAppButton = () => {
   return (
     <section className="grid fixed gap-3 text-4xl bottom-5 right-2 z-[100] text-center">
-      <div>
-        <a
-          className=" bg-[#0A66C2] rounded-full animate-pulse"
-          href="https://www.linkedin.com/in/carlos-manuel-alcantara-rodriguez-861ab2170/"
-          target="_blank"
-        >
-          <i className="bx bxl-linkedin px-2"></i>
+      <div className="grid fixed gap-3 text-5xl bottom-5 left-2 z-[100] text-center">
+        <a href="/" className="rounded-full animate-pulse border">
+          <i className="bx bx-chevrons-up px-[2px]"></i>
         </a>
       </div>
-      <div>
-        <a
-          className="rounded-full animate-pulse"
-          href="https://github.com/CarlosAlc91?tab=repositories"
-          target="_blank"
-        >
-          <i className="bx bxl-github px-2 text-6xl"></i>
-        </a>
-      </div>
-      <div>
-        <a
-          className="bg-[#25D366] rounded-full animate-pulse"
-          href="https://wa.me/525633482738"
-          target="_blank"
-        >
-          <i className="bx bxl-whatsapp px-2"></i>
-        </a>
+      <div className="grid fixed gap-3 text-4xl bottom-5 right-2 z-[100] text-center">
+        <div>
+          <a
+            className=" bg-[#0A66C2] rounded-full animate-pulse"
+            href="https://www.linkedin.com/in/carlos-manuel-alcantara-rodriguez-861ab2170/"
+            target="_blank"
+          >
+            <i className="bx bxl-linkedin px-[6px]"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            className="rounded-full animate-pulse"
+            href="https://github.com/CarlosAlc91?tab=repositories"
+            target="_blank"
+          >
+            <i className="bx bxl-github px-2 text-6xl"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            className="bg-[#25D366] rounded-full animate-pulse"
+            href="https://wa.me/525633482738"
+            target="_blank"
+          >
+            <i className="bx bxl-whatsapp px-[6px]"></i>
+          </a>
+        </div>
       </div>
     </section>
   );
