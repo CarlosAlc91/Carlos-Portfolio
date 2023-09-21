@@ -4,7 +4,7 @@ const Projects = () => {
       <h1 className="font-poppins font-semibold text-4xl py-20 px-10 md:text-6xl">
         My last projects
       </h1>
-      <section className="w-full mx-auto relative z-10">
+      <section className="w-[70%] mx-auto relative z-10">
         {/* div container */}
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth justify-center w-full mx-auto">
           {/* div ecommerce */}

@@ -16,10 +16,6 @@ const Hero = () => {
     fontSize: "3rem",
   });
 
-  /* const handlerIsOpen = () => {
-      setIsOpen((isOpen) => !isOpen);
-    }; */
-
   return (
     /* htmls body */
     <article>
