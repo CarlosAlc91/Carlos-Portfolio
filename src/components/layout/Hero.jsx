@@ -6,10 +6,10 @@ const Hero = () => {
   const [text] = useTypewriter({
     words: [
       "Jr. front-end developer",
-      "comper engineer student",
-      "fast-paced worker",
+      "computer engineer student",
+      "self-Paced student",
       "adaptable person",
-      "and with desire to learn",
+      "someone with desire to learn",
     ],
     loop: {},
     typeSpeed: 125,
@@ -93,7 +93,7 @@ const Hero = () => {
         <section className="flex flex-1 items-center">
           <div className="text-center mx-auto">
             <h1 className="text-5xl md:text-8xl font-semibold font-poppins">
-              who am I?<span className="animate-ping">_</span>
+              I am a<span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
                 {text}
