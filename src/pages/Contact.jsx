@@ -29,7 +29,7 @@ const Contact = () => {
       className="md:h-screen mx-auto projects relative px-6 py-10"
     >
       <section className="relative z-10">
-        <h1 className="font-poppins font-semibold text-4xl py-5 my- px-10 md:text-6xl">
+        <h1 className="font-poppins font-semibold text-4xl py-5 my- px-10 md:text-5xl">
           Let's talk about business
         </h1>
         <div className="flex flex-col justify-center items-center py-6 md:py-6 md:w-1/2 lg:w-1/2 bg-gray-600/40 px-6 rounded-3xl mx-auto">
@@ -39,7 +39,7 @@ const Contact = () => {
             className="flex flex-col gap-6 font-sen capitalize"
           >
             <div>
-              <label className="text-2xl md:text-4xl">Name</label>
+              <label className="text-2xl md:text-3xl">Name</label>
               <input
                 type="text"
                 name="user_name"
@@ -49,7 +49,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className=" text-2xl md:text-4xl">email</label>
+              <label className=" text-2xl md:text-3xl">email</label>
               <input
                 type="email"
                 name="user_email"
@@ -59,7 +59,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="text-2xl md:text-4xl">subject</label>
+              <label className="text-2xl md:text-3xl">subject</label>
               <input
                 type="text"
                 name="subject"
@@ -69,7 +69,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="text-2xl md:text-4xl">message</label>
+              <label className="text-2xl md:text-3xl">message</label>
               <textarea
                 type="text"
                 name="message"

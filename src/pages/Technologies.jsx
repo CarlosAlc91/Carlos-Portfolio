@@ -1,7 +1,7 @@
 const Technologies = () => {
   return (
     <section id="technologies" className="w-full  mx-auto px-6 py-6">
-      <h1 className="font-poppins px-10 py-20 text-4xl font-semibold md:text-6xl ">
+      <h1 className="font-poppins px-10 py-20 text-4xl font-semibold md:text-5xl ">
         Technologies
       </h1>
       <div className="flex flex-wrap items-center justify-center gap-7 bg-gray-600/40 rounded-3xl text-7xl md:text-8xl px-6 py-8 md:w-1/2 mx-auto">

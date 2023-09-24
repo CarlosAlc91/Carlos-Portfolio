@@ -1,12 +1,12 @@
 const Projects = () => {
   return (
     <article id="projects" className="mx-auto projects relative px-4 py-6">
-      <h1 className="font-poppins font-semibold text-4xl py-20 px-10 md:text-6xl">
+      <h1 className="font-poppins font-semibold text-4xl py-20 px-10 md:text-5xl">
         My last projects
       </h1>
       <section className="w-[70%] mx-auto relative z-10">
         {/* div container */}
-        <div className="grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] gap-5 bg-gray-600/40 px-6 py-8 rounded-3xl scroll-smooth justify-center w-full mx-auto">
+        <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 rounded-3xl scroll-smooth justify-center w-full mx-auto">
           {/* div ecommerce */}
           <article className=" bg-white/50 rounded-md p-3">
             <h3 className="font-poppins font-semibold text-center text-3xl py-4">

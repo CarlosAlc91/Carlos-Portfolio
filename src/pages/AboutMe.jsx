@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <article id="about" className="w-full mx-auto px-8 lg:h-screen">
-      <h1 className=" font-poppins font-semibold text-4xl py-10 md:text-6xl">
+      <h1 className=" font-poppins font-semibold text-4xl py-10 md:text-5xl">
         About me
       </h1>
       <div className="flex flex-col w-full md:flex-row gap-4 items-center">
