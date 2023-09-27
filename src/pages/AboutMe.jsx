@@ -11,17 +11,19 @@ const AboutMe = () => {
 
         <div className="w-full mx-auto bg-gray-600/40 rounded-3xl md:w-1/2">
           <p className="font-sen text-p-gray font-normal text-2xl px-9 py-5 my-5">
-            <span className="font-semibold text-4xl">Hi!.</span>
+            <span className="font-semibold text-4xl">Hi!</span>
             <br />
-            I'm a junior front-end web developer with a passion for creating
-            visually appealing and user-friendly websites and applications.
+            I am a junior front-end developer working to become a full-stack
+            developer with a passion for building visually appealing and
+            user-friendly websites and applications.
+            <br />
             Strong technical proficiency in HTML, CSS, JavaScript, Tailwind,
-            React, and responsive design.
+            React, and responsive design. Committed to staying updated on
+            emerging technologies and industry trends to deliver innovative
+            solutions.
             <br />
-            Committed to staying updated on emerging technologies and industry
-            trends to deliver innovative solutions. Seeking collaborations with
-            forward-thinking professionals and organizations that value
-            creativity and user-centric design.
+            Seeking collaborations with forward-thinking professionals and
+            organizations that value creativity and user-centric design.
           </p>
         </div>
       </div>

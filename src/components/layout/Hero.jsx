@@ -100,6 +100,7 @@ const Hero = () => {
               </span>
               <Cursor cursorColor="gray" cursorStyle="" />
             </h1>
+
             <a
               className="w-1/2 mx-auto px-5 py-2 inline-block bg-slate-800 hover:bg-slate-400 transition-colors mt-10 rounded-lg"
               href="/docs/CarlosResume.pdf"
