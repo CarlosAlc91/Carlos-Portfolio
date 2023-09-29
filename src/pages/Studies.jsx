@@ -77,7 +77,7 @@ const Studies = () => {
             2023 - 2023
           </h4>
           <p className="font-poppins text-lg text-center text-[#e0e0e0]">
-            Fundamentals
+            Foundations
           </p>
           <a
             className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#282C34] hover:bg-[#FF4081] transition-colors rounded-lg text-center"
