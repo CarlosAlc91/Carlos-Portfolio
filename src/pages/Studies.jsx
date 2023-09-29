@@ -4,7 +4,7 @@ const Studies = () => {
       <h1 className="font-poppins py-20 text-4xl font-semibold md:text-5xl w-full mx-auto">
         Academic
       </h1>
-      <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[65%] gap-6 mx-auto  rounded-3xl px-6 py-8">
+      <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] md:w-[65%] gap-6 mx-auto  rounded-3xl px-6 py-8">
         {/* uaem */}
         <div className="flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
