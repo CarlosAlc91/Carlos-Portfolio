@@ -6,7 +6,7 @@ const Projects = () => {
       </h1>
       <section className="w-[70%] mx-auto relative z-10">
         {/* div container */}
-        <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 rounded-3xl scroll-smooth items-center justify-center w-full mx-auto">
+        <div className="grid  grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 rounded-3xl scroll-smooth items-center justify-center w-full mx-auto">
           {/* pokedex */}
           <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
@@ -18,7 +18,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">Pokedex</h1>
                   <p className="my-2 font-sen text-xl">
                     Pokedex app will show all pokemons available and their full
@@ -56,7 +56,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
                     User admin
                   </h1>
@@ -96,7 +96,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Rick and Morthy universe
                   </h1>
@@ -136,7 +136,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Weather app
                   </h1>
@@ -175,7 +175,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Fortune cookie
                   </h1>
@@ -210,7 +210,7 @@ const Projects = () => {
                 <img className="w-full h-full" src="/images/TODO.png" alt="" />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">TO-DO app</h1>
                   <p className="my-2 font-sen text-xl">
                     App on which you can create, read, update and delete tasks
@@ -248,7 +248,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden">
-                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-white">
+                <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
                     Shopping cart
                   </h1>
