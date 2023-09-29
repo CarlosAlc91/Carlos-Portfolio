@@ -6,9 +6,9 @@ const Studies = () => {
       </h1>
       <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[65%] gap-6 mx-auto  rounded-3xl px-6 py-8">
         {/* uaem */}
-        <div className="flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className="flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
-            className="rounded-full h-[90px] w-[90px]"
+            className="rounded-full h-[100px] w-[100px]"
             src="/images/uaem.jpeg"
             alt=""
           />
