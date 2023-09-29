@@ -23,7 +23,7 @@ const Studies = () => {
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500 scro">
+        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500 scro">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -40,7 +40,7 @@ const Studies = () => {
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -64,7 +64,7 @@ const Studies = () => {
           </a>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -88,7 +88,7 @@ const Studies = () => {
           </a>
         </div>
         {/* hcc */}
-        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/hcc.jpg"
