@@ -16,13 +16,16 @@ const Hero = () => {
     fontSize: "3rem",
   });
 
+  const handlerNavHideOnClick = () => {
+    setIsOpen(false);
+  };
   return (
     /* htmls body */
     <article>
       {/* hero section */}
       <section className="flex flex-col h-screen bg-laptop bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/70">
         {/* navbar */}
-        <section className="fixed z-[100] w-full mx-auto md:py-3 bg-gray-600/80 rounded-b-lg">
+        <section className="fixed z-[100] w-full mx-auto md:py-3 bg-[#50555e]/80 rounded-b-lg">
           <div className="md:flex md:justify-between md:items-center mx-auto w-full px-5">
             {/* navbar logo all classes to be centered */}
             <div className="flex justify-between items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
@@ -62,24 +65,35 @@ const Hero = () => {
                   <a
                     className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
                     href="#about"
+                    onClick={handlerNavHideOnClick}
                   >
                     About
                   </a>
                   <a
                     className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
+                    href="#academic"
+                    onClick={handlerNavHideOnClick}
+                  >
+                    Academic
+                  </a>
+                  <a
+                    className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
                     href="#technologies"
+                    onClick={handlerNavHideOnClick}
                   >
                     Technologies
                   </a>
                   <a
                     className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
                     href="#projects"
+                    onClick={handlerNavHideOnClick}
                   >
                     Projects
                   </a>
                   <a
                     className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-300 hover:bg-gray-200/30 rounded-md px-1 py-1"
                     href="#contact"
+                    onClick={handlerNavHideOnClick}
                   >
                     Contact
                   </a>

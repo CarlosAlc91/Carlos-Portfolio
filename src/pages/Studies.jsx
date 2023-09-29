@@ -1,6 +1,97 @@
 const Studies = () => {
   return (
-    <div>Studies</div>
-  )
-}
-export default Studies
+    <section id="academic" className="w-full mx-auto h-full px-6 py-6">
+      <h1 className="font-poppins py-20 text-4xl font-semibold md:text-5xl w-full mx-auto">
+        Academic
+      </h1>
+      <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-6 w-full mx-auto  rounded-3xl px-6 py-8">
+        {/* uaem */}
+        <div className="flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+          <img
+            className="rounded-full h-[90px] w-[90px]"
+            src="/images/uaem.jpeg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-lg text-center">
+            UAEMex (Universidad Autonoma del Estado de Mexico)
+          </h3>
+          <h4 className="font-poppins text-lg text-center text-[#e0e0e0]">
+            2019 - Actual
+          </h4>
+          <p className="font-poppins text-base text-center text-[#e0e0e0]">
+            BS in Computer Engineer
+          </p>
+        </div>
+        {/* academlo */}
+        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+          <img
+            className="h-[90px] w-[90px] rounded-full"
+            src="/images/academlo.jpg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-xl text-center">
+            Academlo
+          </h3>
+          <h4 className="font-sen text-xl text-center text-[#e0e0e0]">
+            2023 - Actual
+          </h4>
+          <p className="font-poppins text-lg text-center text-[#e0e0e0]">
+            Node.js
+          </p>
+        </div>
+        {/* academlo */}
+        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+          <img
+            className="h-[90px] w-[90px] rounded-full"
+            src="/images/academlo.jpg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-xl text-center">
+            Academlo
+          </h3>
+          <h4 className="font-sen  text-xl text-center text-[#e0e0e0]">
+            2023 - 2023
+          </h4>
+          <p className="font-poppins text-lg text-center text-[#e0e0e0]">
+            React.js
+          </p>
+        </div>
+        {/* academlo */}
+        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+          <img
+            className="h-[90px] w-[90px] rounded-full"
+            src="/images/academlo.jpg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-xl text-center">
+            Academlo
+          </h3>
+          <h4 className="font-sen text-xl text-center text-[#e0e0e0]">
+            2023 - 2023
+          </h4>
+          <p className="font-poppins text-lg text-center text-[#e0e0e0]">
+            Fundamentals
+          </p>
+        </div>
+        {/* hcc */}
+        <div className=" flex flex-col h-[300px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+          <img
+            className="h-[90px] w-[90px] rounded-full"
+            src="/images/hcc.jpg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-xl text-center">
+            Houston Community College
+          </h3>
+          <h4 className="font-sen text-xl text-center text-[#e0e0e0]">
+            2023 - 2023
+          </h4>
+          <p className="font-poppins text-lg text-center text-[#e0e0e0]">
+            BS in Computer Science
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+export default Studies;

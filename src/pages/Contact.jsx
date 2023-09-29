@@ -24,15 +24,12 @@ const Contact = () => {
       );
   };
   return (
-    <article
-      id="contact"
-      className="md:h-screen mx-auto projects relative px-6 py-10"
-    >
+    <article id="contact" className="w-full mx-auto px-6 py-6 relative h-full">
       <section className="relative z-10">
-        <h1 className="font-poppins font-semibold text-4xl py-5 my- px-10 md:text-5xl">
+        <h1 className="font-poppins font-semibold text-4xl py-5 md:text-5xl w-full mx-auto">
           Let's talk about business
         </h1>
-        <div className="flex flex-col justify-center items-center py-6 md:py-6 md:w-1/2 lg:w-1/2 bg-gray-600/40 px-6 rounded-3xl mx-auto">
+        <div className="flex flex-col justify-center items-center py-6 md:py-6 md:w-1/2 lg:w-1/2 bg-container/50 px-6 rounded-3xl mx-auto">
           <form
             ref={form}
             onSubmit={sendEmail}

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const plugin = require("tailwindcss/plugin");
+const plugin = require("tailwindcss/plugin")
 const Myclass = plugin(function ({ addUtilities }) {
   addUtilities({
     ".my-rotate-180": {
@@ -15,8 +15,8 @@ const Myclass = plugin(function ({ addUtilities }) {
     ".backface-hidden": {
       backfaceVisibility: "hidden",
     },
-  });
-});
+  })
+})
 export default {
   content: [
     "./index.html",
@@ -26,7 +26,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "bg-main": "#000000",
+        "main": "#282C34",
+        "container": "#383c44",
+        'transparent': "#e0e0e0",
         purple: "#494993",
         cyan: "#10FFF1",
         red: "#E40037",
@@ -57,4 +59,4 @@ export default {
     },
   },
   plugins: [Myclass],
-};
+}
