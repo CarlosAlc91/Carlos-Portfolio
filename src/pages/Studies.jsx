@@ -1,12 +1,12 @@
 const Studies = () => {
   return (
-    <section id="academic" className="w-full   mx-auto h-full px-6 py-6">
+    <section id="academic" className="w-full mx-auto h-full px-6 py-6">
       <h1 className="font-poppins py-20 text-4xl font-semibold md:text-5xl w-full mx-auto">
         Academic
       </h1>
-      <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] md:w-[65%] gap-6 mx-auto  rounded-3xl px-6 py-8">
+      <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[65%] gap-6 mx-auto  rounded-3xl px-6 py-8">
         {/* uaem */}
-        <div className="flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className="flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="rounded-full h-[100px] w-[100px]"
             src="/images/uaem.jpeg"
@@ -23,7 +23,7 @@ const Studies = () => {
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500 scro">
+        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500 scro">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -36,11 +36,11 @@ const Studies = () => {
             2023 - Actual
           </h4>
           <p className="font-poppins text-lg text-center text-[#e0e0e0]">
-            Node.js
+            Back-end Development with Node.js
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -53,7 +53,7 @@ const Studies = () => {
             2023 - 2023
           </h4>
           <p className="font-poppins text-lg text-center text-[#e0e0e0]">
-            React.js
+            Front-end Development with ReactJS
           </p>
           <a
             className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#282C34] hover:bg-[#FF4081] transition-colors rounded-lg text-center"
@@ -64,7 +64,7 @@ const Studies = () => {
           </a>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -77,7 +77,7 @@ const Studies = () => {
             2023 - 2023
           </h4>
           <p className="font-poppins text-lg text-center text-[#e0e0e0]">
-            Foundations
+            Foundations in HTML, CSS and JavaScript
           </p>
           <a
             className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#282C34] hover:bg-[#FF4081] transition-colors rounded-lg text-center"
@@ -88,7 +88,7 @@ const Studies = () => {
           </a>
         </div>
         {/* hcc */}
-        <div className=" flex flex-col h-[350px] w-[300px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 border bg-container hover:bg-[#007997] text-white py-3 px-2 rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/hcc.jpg"

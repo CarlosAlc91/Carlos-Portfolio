@@ -29,7 +29,7 @@ const Hero = () => {
     <article>
       {/* hero section */}
       <ParticlesBackground />
-      <section className="relative flex flex-col h-screen z-[100]">
+      <section className=" flex flex-col h-screen z-[100]">
         {/* navbar */}
 
         <section className="fixed w-full mx-auto md:py-3 bg-[#50555e]/80 rounded-b-lg">
