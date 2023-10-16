@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import ParticlesBackground from "./ParticlesBackground";
+import { particlesConfig } from "./config/particles-config";
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   const [text] = useTypewriter({
     words: [
       "Jr. front-end developer",
@@ -19,19 +22,24 @@ const Hero = () => {
   const handlerNavHideOnClick = () => {
     setIsOpen(false);
   };
+
   return (
     /* htmls body */
+
     <article>
       {/* hero section */}
-      <section className="flex flex-col h-screen bg-laptop bg-center bg-cover bg-blend-overlay bg-fixed bg-gray-600/70">
+      <ParticlesBackground />
+      <section className="relative flex flex-col h-screen z-[100]">
         {/* navbar */}
-        <section className="fixed z-[100] w-full mx-auto md:py-3 bg-[#50555e]/80 rounded-b-lg">
+
+        <section className="fixed w-full mx-auto md:py-3 bg-[#50555e]/80 rounded-b-lg">
           <div className="md:flex md:justify-between md:items-center mx-auto w-full px-5">
             {/* navbar logo all classes to be centered */}
             <div className="flex justify-between items-center text-2xl md:text-4xl font-light font-poppins uppercase text-white">
               <div className="flex items-center">
                 <img className="h-10 md:h-16" src="/images/logo.png" alt="" />
-                Carlos<span className="animate-ping text-xs md:text-xl">_</span>
+                Carlos
+                <span className="animate-ping text-xs md:text-xl">_</span>
               </div>
 
               <div
@@ -104,7 +112,7 @@ const Hero = () => {
         </section>
 
         {/* hero content*/}
-        <section className="flex flex-1 items-center">
+        <section className="flex flex-1 z-[100] items-center">
           <div className="text-center mx-auto">
             <h1 className="text-5xl md:text-8xl font-semibold font-poppins">
               I am a<span className="animate-ping">_</span>

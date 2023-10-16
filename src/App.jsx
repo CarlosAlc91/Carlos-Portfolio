@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/layout/Hero";
+import ParticlesBackground from "./components/layout/ParticlesBackground";
 import WhatsAppButton from "./components/layout/WhatsAppButton";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
