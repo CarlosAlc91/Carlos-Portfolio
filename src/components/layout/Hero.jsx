@@ -126,7 +126,7 @@ const Hero = () => {
             <div className="flex gap-3 px-3 justify-center text-[#282C34] ">
               <a
                 className="px-5 py-2 inline-block bg-[#acc8e5] hover:bg-slate-400 hover:text-white transition-colors mt-10 rounded-lg"
-                href="/docs/CarlosResume.pdf"
+                href="https://drive.google.com/file/d/1ZOyo0DkAEZMWK2G0DF204fo8j93GrnQk/view?usp=sharing"
                 target="_blank"
               >
                 Resume
