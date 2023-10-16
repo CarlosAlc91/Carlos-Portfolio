@@ -113,8 +113,8 @@ const Hero = () => {
 
         {/* hero content*/}
         <section className="flex flex-1 z-[100] items-center">
-          <div className="text-center mx-auto">
-            <h1 className="text-5xl md:text-8xl font-semibold font-poppins">
+          <div className="w-full mx-auto">
+            <h1 className="text-center  text-5xl md:text-8xl font-semibold font-poppins ">
               I am a<span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
@@ -123,13 +123,22 @@ const Hero = () => {
               <Cursor cursorColor="gray" cursorStyle="" />
             </h1>
 
-            <a
-              className="w-1/2 mx-auto px-5 py-2 inline-block bg-slate-800 hover:bg-slate-400 transition-colors mt-10 rounded-lg"
-              href="/docs/CarlosResume.pdf"
-              target="_blank"
-            >
-              Resume
-            </a>
+            <div className="flex gap-3 px-3 justify-center text-[#282C34] ">
+              <a
+                className="px-5 py-2 inline-block bg-[#acc8e5] hover:bg-slate-400 hover:text-white transition-colors mt-10 rounded-lg"
+                href="/docs/CarlosResume.pdf"
+                target="_blank"
+              >
+                Resume
+              </a>
+              <a
+                className="px-5 py-2 inline-block  bg-[#acc8e5] hover:bg-slate-400 hover:text-white transition-colors mt-10 rounded-lg"
+                href="https://drive.google.com/file/d/1DuBhBpdsRAmW1OR1vL4j9PjMAI5rzgmJ/view?usp=sharing"
+                target="_blank"
+              >
+                ATS Resume
+              </a>
+            </div>
           </div>
         </section>
       </section>
