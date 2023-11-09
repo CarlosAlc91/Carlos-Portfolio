@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import ParticlesBackground from "./ParticlesBackground";
-import { particlesConfig } from "./config/particles-config";
+import { particlesConfig } from "./config/particles-config.js";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   /* states */
@@ -123,6 +124,16 @@ const Hero = () => {
                   <i className="bx bx-menu text-black dark:text-white"></i>
                 )}
               </div>
+
+              {/* flags */}
+              {/* <div className="flex gap-4 w-[75px] items-center justify-between">
+                <div className="w-[30px] cursor-pointer block">
+                  <img src="/images/united-states.png" alt="" />
+                </div>
+                <div className="w-[30px] cursor-pointer block">
+                  <img src="/images/mexico.png" alt="" />
+                </div>
+              </div> */}
             </div>
 
             {/* menu */}
@@ -149,47 +160,78 @@ const Hero = () => {
                     )}
                   </div>
 
-                  <a
+                  <Link
+                    to="particle-bg"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32]  py-1"
-                    href="/"
+                    onClick={handlerNavHideOnClick}
+                    /* href="/" */
                   >
                     Home
-                  </a>
-                  <a
+                  </Link>
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32]  py-1"
                     href="#about"
                     onClick={handlerNavHideOnClick}
                   >
                     About
-                  </a>
-                  <a
+                  </Link>
+                  <Link
+                    to="academic"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32]  py-1"
                     href="#academic"
                     onClick={handlerNavHideOnClick}
                   >
                     Academic
-                  </a>
-                  <a
+                  </Link>
+                  <Link
+                    to="technologies"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32] py-1"
                     href="#technologies"
                     onClick={handlerNavHideOnClick}
                   >
                     Technologies
-                  </a>
-                  <a
+                  </Link>
+                  <Link
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1 duration-300 hover:text-[#32CD32] py-1"
                     href="#projects"
                     onClick={handlerNavHideOnClick}
                   >
                     Projects
-                  </a>
-                  <a
+                  </Link>
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
                     className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32] py-1"
                     href="#contact"
                     onClick={handlerNavHideOnClick}
                   >
                     Contact
-                  </a>
+                  </Link>
                 </ul>
               </nav>
             </div>
