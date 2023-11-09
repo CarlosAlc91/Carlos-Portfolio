@@ -1,13 +1,26 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Technologies = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <section
       id="technologies"
       className="relative w-full mx-auto px-6 py-6 h-full"
     >
-      <h1 className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto">
+      <h1
+        className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
+        data-aos="fade-left"
+      >
         Technologies
       </h1>
-      <div className="flex flex-wrap items-center justify-center gap-7 bg-[#e8e8e8] border-2 border-[#32CD32] rounded-3xl text-7xl md:text-8xl px-6 py-8 md:w-[60%] mx-auto">
+      <div
+        className="flex flex-wrap items-center justify-center gap-7 bg-[#e8e8e8] border-2 border-[#32CD32] rounded-3xl text-7xl md:text-8xl px-6 py-8 md:w-[60%] mx-auto"
+        data-aos="zoom-in"
+      >
         <span className="py-2">
           <i className="bx bxl-html5 text-[#ea580c] hover:bg-gray-300/40 transition-color hover:scale-110 px-1 py-1 duration-150 delay-200 transform rounded-full"></i>
           <h3 className="text-3xl text-center">HTML</h3>

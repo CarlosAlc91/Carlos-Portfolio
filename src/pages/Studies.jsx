@@ -1,10 +1,24 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Studies = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <section id="academic" className="w-full mx-auto h-full px-6 py-6">
-      <h1 className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto">
+      <h1
+        className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
+        data-aos="fade-right"
+      >
         Academic
       </h1>
-      <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[75%] gap-6 mx-auto  rounded-3xl px-6 py-8">
+      <div
+        className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[75%] gap-6 mx-auto  rounded-3xl px-6 py-8"
+        data-aos="fade-down"
+      >
         {/* uaem */}
         <div className="flex flex-col h-[350px] w-[250px] justify-center items-center gap-4  bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32]  rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
           <img

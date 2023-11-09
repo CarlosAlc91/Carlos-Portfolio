@@ -1,5 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
   const form = useRef();
@@ -23,17 +26,26 @@ const Contact = () => {
         }
       );
   };
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <article
       id="contact"
       className="relative w-full mx-auto  h-full md:h-screen mb-14"
     >
-      <h1 className="font-poppins font-semibold text-center text-[#32CD32] text-[40px] py-20 md:text-5xl w-full mx-auto">
+      <h1
+        className="font-poppins font-semibold text-center text-[#32CD32] text-[40px] py-20 md:text-5xl w-full mx-auto"
+        data-aos="zoom-in-down"
+      >
         Let's talk about business
       </h1>
       <div className="flex flex-col justify-center items-center md:flex-row gap-10 relative z-10 px-5 w-full mx-auto">
         {/* form */}
-        <section className="flex flex-col justify-center items-center py-6 w-full md:w-1/3 mx-auto md:py-6 px-6 bg-[#e8e8e8]/80 border-2 border-[#32CD32] rounded-3xl">
+        <section
+          className="flex flex-col justify-center items-center py-6 w-full md:w-1/3 mx-auto md:py-6 px-6 bg-[#e8e8e8]/80 border-2 border-[#32CD32] rounded-3xl"
+          data-aos="fade-up-left"
+        >
           <div>
             <form
               ref={form}
@@ -92,7 +104,10 @@ const Contact = () => {
           </div>
         </section>
         {/* map */}
-        <section className="h-[400px] w-full md:w-1/3 mx-auto rounded-3xl ">
+        <section
+          className="h-[400px] w-full md:w-1/3 mx-auto rounded-3xl"
+          data-aos="fade-up-right"
+        >
           <iframe
             className="w-full h-full rounded-3xl border-2 border-[#32CD32]"
             width="480"

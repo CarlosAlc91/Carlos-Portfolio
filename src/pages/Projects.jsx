@@ -1,7 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <article id="projects" className="w-full mx-auto px-6 py-6 relative h-full">
-      <h1 className="font-poppins font-semibold text-center text-[#32CD32] text-4xl py-20 md:text-5xl w-full mx-auto">
+      <h1
+        className="font-poppins font-semibold text-center text-[#32CD32] text-4xl py-20 md:text-5xl w-full mx-auto"
+        data-aos="fade-right"
+      >
         My last projects
       </h1>
       <section className="w-full mx-auto z-10 relative">
