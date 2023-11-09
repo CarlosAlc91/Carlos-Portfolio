@@ -10,7 +10,7 @@ import Technologies from "./pages/Technologies";
 
 function App() {
   return (
-    <main className="min-h-screen w-full overflow-x-hidden overflow-y-hidden bg-[#282C34] text-white">
+    <main className="min-h-screen w-full overflow-x-hidden dark:bg-container overflow-y-hidden">
       <Hero />
       <AboutMe />
       <Studies />

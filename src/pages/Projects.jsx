@@ -1,23 +1,23 @@
 const Projects = () => {
   return (
     <article id="projects" className="w-full mx-auto px-6 py-6 relative h-full">
-      <h1 className="font-poppins font-semibold text-4xl py-20 md:text-5xl w-full mx-auto">
+      <h1 className="font-poppins font-semibold text-center text-[#32CD32] text-4xl py-20 md:text-5xl w-full mx-auto">
         My last projects
       </h1>
-      <section className="w-[70%] mx-auto relative z-10">
+      <section className="w-full mx-auto z-10 relative">
         {/* div container */}
-        <div className="grid  grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 rounded-3xl scroll-smooth items-center justify-center w-full mx-auto">
+        <div className=" grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 items-center justify-center rounded-3xl w-full mx-auto text-center">
           {/* pokedex */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/pokedex.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">Pokedex</h1>
                   <p className="my-2 font-sen text-xl">
@@ -46,16 +46,16 @@ const Projects = () => {
           </div>
 
           {/* http crud */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/crudApp.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
                     User admin
@@ -86,16 +86,16 @@ const Projects = () => {
           </div>
 
           {/* rick and morthy */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/rickMorthy.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Rick and Morthy universe
@@ -126,16 +126,16 @@ const Projects = () => {
           </div>
 
           {/* weather app */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/weatherApp.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Weather app
@@ -165,16 +165,16 @@ const Projects = () => {
           </div>
 
           {/* div fortune cookie*/}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/fortuneCookie.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
                     Fortune cookie
@@ -204,12 +204,16 @@ const Projects = () => {
           </div>
 
           {/* div todo list */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
-                <img className="w-full h-full" src="/images/TODO.png" alt="" />
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
+                <img
+                  className="w-full h-full rounded-2xl"
+                  src="/images/TODO.png"
+                  alt=""
+                />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden ">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">TO-DO app</h1>
                   <p className="my-2 font-sen text-xl">
@@ -238,16 +242,16 @@ const Projects = () => {
           </div>
 
           {/* div ecommerce */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective">
+          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
-              <div className="absolute backface-hidden border-2 w-full h-full">
+              <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full rounded-2xl"
                   src="/images/ecommerce.png"
                   alt=""
                 />
               </div>
-              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden">
+              <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
                     Shopping cart
@@ -277,13 +281,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <img
-          className="absolute -left-[55%] bottom-8 md:-left-1/2 md:-bottom-[100px] lg:-left-8 lg:-bottom-0 animate-animateUser"
-          src="/images/triangle.png"
-          alt=""
-        />
       </section>
     </article>
   );
