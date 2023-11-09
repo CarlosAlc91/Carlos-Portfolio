@@ -166,7 +166,7 @@ const Hero = () => {
                     smooth={true}
                     offset={-100}
                     duration={500}
-                    className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32]  py-1"
+                    className="transition ease-in-out delay-150 hover:-translate-y-1  duration-300 hover:text-[#32CD32]  py-1 cursor-pointer"
                     onClick={handlerNavHideOnClick}
                     /* href="/" */
                   >
