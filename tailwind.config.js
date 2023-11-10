@@ -43,10 +43,59 @@ export default {
             transform: "translateX(20px) translateY(-30px)",
           },
         },
+        animatePulseGreen: {
+          "0%": {
+            transform: "scale(0.8)",
+            boxShadow: "0 0 0 0 rgba(50, 205, 50, 1)",
+            /* rgba: "229, 62, 62, 1" */
+          },
+          "70%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 30px rgba(50, 205, 50, 0)",
+
+          },
+          "100%": {
+            transform: "scale(0.8)"
+          }
+        },
+        animatePulseBlue: {
+          "0%": {
+            transform: "scale(0.8)",
+            boxShadow: "0 0 0 0 rgba(10, 102, 194, 1)",
+            /* rgba: "229, 62, 62, 1" */
+          },
+          "70%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 30px rgba(10, 102, 194, 0)",
+
+          },
+          "100%": {
+            transform: "scale(0.8)"
+          }
+        },
+        animatePulseBlack: {
+          "0%": {
+            transform: "scale(0.8)",
+            boxShadow: "0 0 0 0 rgba(0, 0, 0, 1)",
+            /* rgba: "229, 62, 62, 1" */
+          },
+          "70%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 30px rgba(0, 0, 0, 0)",
+
+          },
+          "100%": {
+            transform: "scale(0.8)"
+          }
+        },
       },
 
       animation: {
         animateUser: "animateUser 4s linear infinite",
+        animatePulseGreen: "animatePulseGreen 2s infinite",
+        animatePulseBlue: "animatePulseBlue 2s infinite",
+        animatePulseBlack: "animatePulseBlack 2s infinite"
+
       },
 
       backgroundImage: {
