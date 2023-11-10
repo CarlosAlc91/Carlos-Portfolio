@@ -23,7 +23,7 @@ const WhatsAppButton = () => {
         {/* github */}
         <div className="flex justify-center items-center rounded-full w-[50px] h-[50px] animate-animatePulseBlack">
           <a
-            className="flex justify-center items-center bg-white rounded-full [50px] h-[50px]"
+            className="flex justify-center items-center  rounded-full [50px] h-[50px]"
             href="https://github.com/CarlosAlc91"
             target="_blank"
           >
