@@ -1,13 +1,19 @@
+import { Link } from "react-scroll";
+
 const WhatsAppButton = () => {
   return (
     <section className="relative z-[500]">
       <div className="grid fixed gap-3 text-5xl bottom-5 left-8 z-[100] text-center">
-        <a
-          href="/"
+        <Link
+          to="particle-bg"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={1000}
           className="border-2 rounded-full animate-animatePulseGreen  bg-[#32cd32]"
         >
           <i className="bx bx-chevrons-up px-[2px]"></i>
-        </a>
+        </Link>
       </div>
       <div className="flex flex-col fixed gap-12 text-4xl bottom-5 right-8 z-[100] text-center">
         {/* linkedin */}
