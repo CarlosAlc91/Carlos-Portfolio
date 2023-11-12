@@ -1,8 +1,10 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
+  const [t, i18n] = useTranslation("global");
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -12,7 +14,7 @@ const AboutMe = () => {
         className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
         data-aos="fade-right"
       >
-        About me
+        {t("AboutMe.title")}
       </h1>
       <div
         className="flex flex-col w-full md:flex-row gap-10 items-center"
@@ -34,19 +36,11 @@ const AboutMe = () => {
           data-aos="zoom-in-right"
         >
           <p className="font-sen text-black font-normal text-2xl px-9 py-5 my-5">
-            <span className="font-semibold text-[#32CD32] text-4xl">Hi!</span>
+            <span className="font-semibold text-[#32CD32] text-4xl">
+              {t("AboutMe.hi")}
+            </span>
             <br />
-            I am a junior front-end developer working to become a full-stack
-            developer with a passion for building visually appealing and
-            user-friendly websites and applications.
-            <br />
-            Strong technical proficiency in HTML, CSS, JavaScript, Tailwind,
-            React, and responsive design. Committed to staying updated on
-            emerging technologies and industry trends to deliver innovative
-            solutions.
-            <br />
-            Seeking collaborations with forward-thinking professionals and
-            organizations that value creativity and user-centric design.
+            {t("AboutMe.body")}
           </p>
         </div>
       </div>

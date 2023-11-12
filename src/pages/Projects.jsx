@@ -1,8 +1,10 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const [t, i18n] = useTranslation("global");
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -12,7 +14,7 @@ const Projects = () => {
         className="font-poppins font-semibold text-center text-[#32CD32] text-4xl py-20 md:text-5xl w-full mx-auto"
         data-aos="fade-right"
       >
-        My last projects
+        {t("Projects.title")}
       </h1>
       <section className="w-full mx-auto z-10 relative">
         {/* div container */}
@@ -29,10 +31,11 @@ const Projects = () => {
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
-                  <h1 className="font-poppins text-4xl font-bold">Pokedex</h1>
+                  <h1 className="font-poppins text-4xl font-bold">
+                    {t("Projects.project-1.name")}
+                  </h1>
                   <p className="my-2 font-sen text-xl">
-                    Pokedex app will show all pokemons available and their full
-                    information
+                    {t("Projects.project-1.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -68,11 +71,10 @@ const Projects = () => {
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
-                    User admin
+                    {t("Projects.project-2.name")}
                   </h1>
                   <p className="my-2 font-sen text-xl">
-                    This app allows to create, read, update and delete users
-                    (CRUD).
+                    {t("Projects.project-2.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -108,11 +110,10 @@ const Projects = () => {
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
-                    Rick and Morthy universe
+                    {t("Projects.project-3.name")}
                   </h1>
                   <p className="my-2 font-sen text-xl">
-                    App shows all universes from Rick and Morthy as well as all
-                    residents.
+                    {t("Projects.project-3.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -148,10 +149,10 @@ const Projects = () => {
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
-                    Weather app
+                    {t("Projects.project-4.name")}
                   </h1>
                   <p className="my-2 font-sen text-xl">
-                    This app gets current location and shows real time weather.
+                    {t("Projects.project-4.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -187,10 +188,10 @@ const Projects = () => {
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-3xl font-bold">
-                    Fortune cookie
+                    {t("Projects.project-5.name")}
                   </h1>
                   <p className="my-2 font-sen text-xl">
-                    This app gets current location and shows real time weather.
+                    {t("Projects.project-5.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -225,10 +226,11 @@ const Projects = () => {
               </div>
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
-                  <h1 className="font-poppins text-4xl font-bold">TO-DO app</h1>
+                  <h1 className="font-poppins text-4xl font-bold">
+                    {t("Projects.project-6.name")}
+                  </h1>
                   <p className="my-2 font-sen text-xl">
-                    App on which you can create, read, update and delete tasks
-                    from a list (CRUD)
+                    {t("Projects.project-6.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a
@@ -264,11 +266,10 @@ const Projects = () => {
               <div className="absolute my-rotate-180 backface-hidden w-full h-full bg-white/50 overflow-hidden rounded-2xl">
                 <div className="text-center flex flex-col gap-14 items-center justify-center h-full text-[#282C34]">
                   <h1 className="font-poppins text-4xl font-bold">
-                    Shopping cart
+                    {t("Projects.project-7.name")}
                   </h1>
                   <p className="my-2 font-sen text-xl">
-                    Shopping cart on which you can add, delete, update items
-                    from a shoppig list.
+                    {t("Projects.project-7.body")}
                   </p>
                   <span className="absolute flex -bottom-20 delay-500 duration-1000 group-hover:bottom-10 gap-7 text-5xl md:text-4xl scale-0 group-hover:scale-125">
                     <a

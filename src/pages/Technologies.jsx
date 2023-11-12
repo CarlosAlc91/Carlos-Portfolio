@@ -1,8 +1,10 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Technologies = () => {
+  const [t, i18n] = useTranslation("global");
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -15,7 +17,7 @@ const Technologies = () => {
         className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
         data-aos="fade-left"
       >
-        Technologies
+        {t("Technologies.title")}
       </h1>
       <div
         className="flex flex-wrap items-center justify-center gap-7 bg-[#e8e8e8] border-2 border-[#32CD32] rounded-3xl text-7xl md:text-8xl px-6 py-8 md:w-[60%] mx-auto"

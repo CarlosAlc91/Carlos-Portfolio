@@ -3,9 +3,11 @@ import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const form = useRef();
+  const [t, i18n] = useTranslation("global");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,6 +28,10 @@ const Contact = () => {
         }
       );
   };
+
+  const handlerSwitchLanguge = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -38,7 +44,8 @@ const Contact = () => {
         className="font-poppins font-semibold text-center text-[#32CD32] text-[40px] py-20 md:text-5xl w-full mx-auto"
         data-aos="zoom-in-down"
       >
-        Let's talk about business
+        {t("Contact.title")}
+        {/* Let's talk about business */}
       </h1>
       <div className="flex flex-col justify-center items-center md:flex-row gap-10 relative z-10 px-5 w-full mx-auto">
         {/* form */}
@@ -53,42 +60,50 @@ const Contact = () => {
               className="flex flex-col gap-6 font-sen capitalize"
             >
               <div>
-                <label className="text-2xl md:text-3xl">Name</label>
+                <label className="text-2xl md:text-3xl">
+                  {t("Contact.name")}
+                </label>
                 <input
                   type="text"
                   name="user_name"
                   className=" bg-[#d9d9d9] text-black rounded-lg w-full py-1 placeholder:italic placeholder:text-xl placeholder:text-gray-500 px-4"
-                  placeholder="name"
+                  placeholder={t("Contact.name")}
                   required
                 />
               </div>
               <div>
-                <label className=" text-2xl md:text-3xl">email</label>
+                <label className=" text-2xl md:text-3xl">
+                  {t("Contact.email")}
+                </label>
                 <input
                   type="email"
                   name="user_email"
                   className=" bg-[#d9d9d9] text-black rounded-lg w-full py-1 placeholder:italic placeholder:text-xl placeholder:text-gray-500 px-4"
-                  placeholder="email"
+                  placeholder={t("Contact.email")}
                   required
                 />
               </div>
               <div>
-                <label className="text-2xl md:text-3xl">subject</label>
+                <label className="text-2xl md:text-3xl">
+                  {t("Contact.subject")}
+                </label>
                 <input
                   type="text"
                   name="subject"
                   className=" bg-[#d9d9d9] text-black rounded-lg w-full py-1 placeholder:italic placeholder:text-xl placeholder:text-gray-500 px-4"
-                  placeholder="subject"
+                  placeholder={t("Contact.subject")}
                   required
                 />
               </div>
               <div>
-                <label className="text-2xl md:text-3xl">message</label>
+                <label className="text-2xl md:text-3xl">
+                  {t("Contact.message")}
+                </label>
                 <textarea
                   type="text"
                   name="message"
                   className="h-28 bg-[#d9d9d9] text-black rounded-lg w-full py-1 placeholder:italic placeholder:text-xl placeholder:text-gray-500 px-4"
-                  placeholder="message"
+                  placeholder={t("Contact.message")}
                   required
                 />
               </div>
@@ -97,7 +112,7 @@ const Contact = () => {
                   type="submit"
                   className="bg-[#32CD32]  hover:bg-black hover:text-white w-full py-2 rounded-md text-xl font-bold"
                 >
-                  send
+                  {t("Contact.button")}
                 </button>
               </div>
             </form>

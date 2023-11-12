@@ -1,8 +1,10 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Studies = () => {
+  const [t, i18n] = useTranslation("global");
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -13,7 +15,7 @@ const Studies = () => {
         className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
         data-aos="fade-right"
       >
-        Academic
+        {t("Academic.title")}
       </h1>
       <div
         className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[75%] gap-6 mx-auto  rounded-3xl px-6 py-8"
@@ -31,7 +33,7 @@ const Studies = () => {
           </h3>
           <h4 className="font-poppins text-lg text-center">2019 - Actual</h4>
           <p className="font-poppins text-base text-center">
-            BS in Computer Engineer
+            {t("Academic.major-auemex")}
           </p>
         </div>
         {/* academlo */}
@@ -46,7 +48,7 @@ const Studies = () => {
           </h3>
           <h4 className="font-sen text-xl text-center">2023 - Actual</h4>
           <p className="font-poppins text-lg text-center">
-            Back-end Development with Node.js
+            {t("Academic.major-back")}
           </p>
         </div>
         {/* academlo */}
@@ -61,14 +63,14 @@ const Studies = () => {
           </h3>
           <h4 className="font-sen  text-xl text-center">2023 - 2023</h4>
           <p className="font-poppins text-lg text-center">
-            Front-end Development with ReactJS
+            {t("Academic.major-front")}
           </p>
           <a
             className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#32CD32] hover:bg-black hover:text-white transition-colors rounded-lg text-center"
             href="https://drive.google.com/file/d/19nYu-tfagdrJyPXmSDrMsjlF97ww5hBW/view?usp=sharing"
             target="_blank"
           >
-            Certificate
+            {t("Academic.button")}
           </a>
         </div>
         {/* academlo */}
@@ -83,14 +85,14 @@ const Studies = () => {
           </h3>
           <h4 className="font-sen text-xl text-center">2023 - 2023</h4>
           <p className="font-poppins text-lg text-center">
-            Foundations in HTML, CSS and JavaScript
+            {t("Academic.major-foundations")}
           </p>
           <a
             className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#32CD32] hover:bg-black hover:text-white transition-colors rounded-lg text-center"
             href="https://drive.google.com/file/d/127lAxuQ0dUKY0ylgTgbTpqyzkp9PuLnc/view?usp=sharing"
             target="_blank"
           >
-            Certificate
+            {t("Academic.button")}
           </a>
         </div>
         {/* hcc */}
@@ -105,7 +107,7 @@ const Studies = () => {
           </h3>
           <h4 className="font-sen text-xl text-center">2023 - 2023</h4>
           <p className="font-poppins text-lg text-center">
-            BS in Computer Science
+            {t("Academic.major-hcc")}
           </p>
         </div>
       </div>

@@ -1,0 +1,66 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "academic": "Academic",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "AboutMe": {
+    "title":"About me",
+    "hi": "Hi!",
+    "body": "I am a junior front-end developer working to become a full-stack developer with a passion for building visually appealing and user-friendly websites and applications. Strong technical proficiency in HTML, CSS, JavaScript, Tailwind, React, and responsive design. Committed to staying updated on emerging technologies and industry trends to deliver innovative solutions. Seeking collaborations with forward-thinking professionals and organizations that value creativity and user-centric design."
+  },
+  "Academic": {
+    "title": "Academic",
+    "major-auemex": "BS in Computer Engineer",
+    "major-back": "Back-end Development with Node.js",
+    "major-front": "Front-end Development with ReactJS",
+    "major-foundations": "Foundations in HTML, CSS and JavaScript",
+    "major-hcc": "BS in Computer Science",
+    "button": "Certificate"
+  },
+  "Technologies": {
+    "title": "Technologies"
+  },
+  "Projects": {
+    "title": "My last projects",
+    "project-1":{
+      "name": "Pokedex",
+      "body": "Pokedex app will show all pokemons available and their full information"
+    },
+    "project-2":{
+      "name": "User admin",
+      "body": "This app allows to create, read, update and delete users (CRUD)."
+    },
+    "project-3":{
+      "name": "Rick and Morthy universe",
+      "body": "App shows all universes from Rick and Morthy as well as all residents."
+    },
+    "project-4":{
+      "name": "Weather app",
+      "body": "This app gets current location and shows real time weather."
+    },
+    "project-5":{
+      "name": "Fortune cookie",
+      "body": "Get random quotes from different authors."
+    },
+    "project-6":{
+      "name": "TO-DO app",
+      "body": "App on which you can create, read, update and delete tasks from a list (CRUD)"
+    },
+    "project-7":{
+      "name": "Shopping cart",
+      "body": "Shopping cart on which you can add, delete, update items from a shopping list."
+    }
+  },
+  "Contact": {
+    "title": "Let's talk about business",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "button": "Send"
+  }
+}

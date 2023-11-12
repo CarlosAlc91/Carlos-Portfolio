@@ -1,0 +1,66 @@
+{
+  "Nav": {
+    "home": "Casa",
+    "about": "Conóceme",
+    "academic": "Estudios",
+    "technologies": "Tecnologías",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "AboutMe": {
+    "title":"Conóceme",
+    "hi": "Hola!",
+    "body": "Soy un desarrollador front-end junior que trabaja para convertirme en un desarrollador full-stack apasionado por crear sitios web y aplicaciones visualmente atractivos y fáciles de usar. Fuerte dominio técnico en HTML, CSS, JavaScript, Tailwind, React y diseño responsivo. Comprometidos a mantenerse actualizados sobre tecnologías emergentes y tendencias de la industria para ofrecer soluciones innovadoras. Buscar colaboraciones con profesionales y organizaciones con visión de futuro que valoren la creatividad y el diseño centrado en el usuario."
+  },
+  "Academic": {
+    "title": "Estudios",
+    "major-auemex": "Ingeniería en Computación",
+    "major-back": "Desarrollo Back-end con Node.js",
+    "major-front": "Desarrollo Front-end con ReactJS",
+    "major-foundations": "Fundamentos en HTML, CSS and JavaScript",
+    "major-hcc": "Ciencias Computacionales",
+    "button": "Certificado"
+  },
+  "Technologies": {
+    "title": "Tecnologías"
+  },
+  "Projects": {
+    "title": "Ultimos proyectos",
+    "project-1":{
+      "name": "Pokedex",
+      "body": "La aplicación Pokedex mostrará todos los Pokémon disponibles y su información completa."
+    },
+    "project-2":{
+      "name": "Administrador de usuarios",
+      "body": "Esta app permite crear, leer, actualizar y eliminar usuarios (CRUD)."
+    },
+    "project-3":{
+      "name": "Universo de Rick y Morthy",
+      "body": "La aplicación muestra todos los universos de Rick y Morty, así como todos los residentes."
+    },
+    "project-4":{
+      "name": "Aplicación del clima",
+      "body": "Esta aplicación obtiene la ubicación actual y muestra el clima en tiempo real."
+    },
+    "project-5":{
+      "name": "Galletas de la fortuna",
+      "body": "Obtenga citas aleatorias de diferentes autores."
+    },
+    "project-6":{
+      "name": "Lista de tareas",
+      "body": "Aplicación en la que puedes crear, leer, actualizar y eliminar tareas de una lista (CRUD)"
+    },
+    "project-7":{
+      "name": "Carrito de compras",
+      "body": "Carrito de compras en el que puede agregar, eliminar y actualizar artículos de una lista de compras."
+    }
+  },
+  "Contact": {
+    "title": "Negociemos",
+    "name": "Nombre",
+    "email": "Correo",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "button": "Enviar"
+  }
+}
