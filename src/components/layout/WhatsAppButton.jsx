@@ -10,7 +10,7 @@ const WhatsAppButton = () => {
           smooth={true}
           offset={-100}
           duration={1000}
-          className="border-2 rounded-full animate-animatePulseGreen  bg-[#32cd32]"
+          className="border-2 rounded-full animate-animatePulseGreen cursor-pointer  bg-[#32cd32]"
         >
           <i className="bx bx-chevrons-up px-[2px]"></i>
         </Link>
