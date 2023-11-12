@@ -88,13 +88,29 @@ export default {
             transform: "scale(0.8)"
           }
         },
+        animatePulseWhite: {
+          "0%": {
+            transform: "scale(0.8)",
+            boxShadow: "0 0 0 0 rgba(255, 255, 255, 1)",
+            /* rgba: "229, 62, 62, 1" */
+          },
+          "70%": {
+            transform: "scale(1)",
+            boxShadow: "0 0 0 30px rgba(255, 255, 255, 0)",
+
+          },
+          "100%": {
+            transform: "scale(0.8)"
+          }
+        },
       },
 
       animation: {
         animateUser: "animateUser 4s linear infinite",
         animatePulseGreen: "animatePulseGreen 2s infinite",
         animatePulseBlue: "animatePulseBlue 2s infinite",
-        animatePulseBlack: "animatePulseBlack 2s infinite"
+        animatePulseBlack: "animatePulseBlack 2s infinite",
+        animatePulseWhite: "animatePulseWhite 2s infinite"
 
       },
 

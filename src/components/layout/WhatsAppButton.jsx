@@ -27,13 +27,13 @@ const WhatsAppButton = () => {
           </a>
         </div>
         {/* github */}
-        <div className="flex justify-center items-center rounded-full w-[50px] h-[50px] animate-animatePulseBlack">
+        <div className="flex justify-center items-center rounded-full w-[50px] h-[50px] animate-animatePulseBlack dark:animate-animatePulseWhite">
           <a
             className="flex justify-center items-center  rounded-full [50px] h-[50px]"
             href="https://github.com/CarlosAlc91"
             target="_blank"
           >
-            <i className="bx bxl-github text-black px-[6px]  rounded-full "></i>
+            <i className="bx bxl-github text-black dark:text-white px-[6px]  rounded-full "></i>
           </a>
         </div>
         {/* whats */}
