@@ -96,7 +96,7 @@ const Hero = () => {
     <article>
       {/* hero section */}
       <ParticlesBackground />
-      <section className=" flex flex-col h-screen z-[200] relative">
+      <section className=" flex flex-col w-full h-screen mx-auto z-[200] relative">
         {/* navbar */}
 
         <section
@@ -106,12 +106,12 @@ const Hero = () => {
               : "dark:bg-white/0 dark:text-black"
           }`}
         >
-          <div className="flex justify-between md:flex md:justify-between md:items-center mx-auto w-full px-5">
+          <div className="md:flex md:justify-between md:items-center mx-auto w-full px-5">
             {/* navbar logo all classes to be centered */}
-            <div className="flex justify-center items-center text-2xl md:text-4xl font-light font-poppins uppercase gap-5 text-white pt-5 md:pt-0">
+            <div className="flex items-center text-2xl mx-auto w-full md:text-4xl font-light font-poppins uppercase gap-5 text-white pt-5 md:pt-0">
               {/* logo-name */}
               <div
-                className={`flex items-center gap-4 text-black font-semibold dark:text-white ${
+                className={`flex items-center w-full mx-auto gap-4 pl-4 text-black font-semibold dark:text-white ${
                   color ? "text-black" : "dark:text-black"
                 }`}
               >
@@ -119,46 +119,48 @@ const Hero = () => {
                 Carlos
                 <span className="animate-ping text-xs md:text-xl">_</span>
               </div>
+              {/* dark-flags */}
+              <div className="flex items-center justify-center w-full mx-auto gap-5">
+                {/* flags */}
+                <div className="flex gap-4 w-[75px] items-center justify-between">
+                  <div
+                    className="w-[30px] cursor-pointer"
+                    onClick={() => handlerSwitchLanguge("en")}
+                  >
+                    <img src="/images/united-states.png" alt="" />
+                  </div>
+                  <div
+                    className="w-[30px] cursor-pointer"
+                    onClick={() => handlerSwitchLanguge("es")}
+                  >
+                    <img src="/images/mexico.png" alt="" />
+                  </div>
+                </div>
+                {/* dark-light */}
+                <div onClick={handlerNavHideOnClick}>
+                  {darkMode === "dark" ? (
+                    <i
+                      className="bx bxs-sun cursor-pointer text-2xl transition ease-in-out delay-150 hover:-translate-y-1  duration-300"
+                      onClick={handlerDarkMode}
+                    ></i>
+                  ) : (
+                    <i
+                      className="bx bxs-moon cursor-pointer text-2xl text-gray-500 rounded-full transition ease-in-out delay-150 hover:-translate-y-1  duration-300"
+                      onClick={handlerDarkMode}
+                    ></i>
+                  )}
+                </div>
+              </div>
 
               {/* burguer menu */}
               <div
-                className="flex text-3xl px-4 md:hidden cursor-pointer"
+                className="flex w-full mx-auto text-3xl px-4 md:hidden cursor-pointer "
                 onClick={() => setIsOpen((isOpen) => !isOpen)}
               >
                 {isOpen ? (
-                  <i className="bx bx-x text-black dark:text-white "></i>
+                  <i className="bx bx-x w-full text-black dark:text-white  mx-auto"></i>
                 ) : (
-                  <i className="bx bx-menu text-black dark:text-white"></i>
-                )}
-              </div>
-
-              {/* flags */}
-              <div className="flex gap-4 w-[75px] items-center justify-between">
-                <div
-                  className="w-[30px] cursor-pointer"
-                  onClick={() => handlerSwitchLanguge("en")}
-                >
-                  <img src="/images/united-states.png" alt="" />
-                </div>
-                <div
-                  className="w-[30px] cursor-pointer"
-                  onClick={() => handlerSwitchLanguge("es")}
-                >
-                  <img src="/images/mexico.png" alt="" />
-                </div>
-              </div>
-              {/* dark-light */}
-              <div onClick={handlerNavHideOnClick}>
-                {darkMode === "dark" ? (
-                  <i
-                    className="bx bxs-sun cursor-pointer text-2xl transition ease-in-out delay-150 hover:-translate-y-1  duration-300"
-                    onClick={handlerDarkMode}
-                  ></i>
-                ) : (
-                  <i
-                    className="bx bxs-moon cursor-pointer text-2xl text-gray-500 rounded-full transition ease-in-out delay-150 hover:-translate-y-1  duration-300"
-                    onClick={handlerDarkMode}
-                  ></i>
+                  <i className="bx bx-menu w-full text-black dark:text-white mx-auto"></i>
                 )}
               </div>
             </div>
