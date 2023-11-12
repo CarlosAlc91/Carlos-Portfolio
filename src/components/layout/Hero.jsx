@@ -12,7 +12,14 @@ const Hero = () => {
     const savedDarkMode = localStorage.getItem("darkMode");
     return savedDarkMode ? JSON.parse(savedDarkMode) : "light";
   });
+
+  /* localstorage language */
   const [t, i18n] = useTranslation("global");
+
+  const [language, setLanguage] = useState(() => {
+    const savedLanguage = localStorage.getItem("language");
+    return savedLanguage ? JSON.parse(savedLanguage) : "en";
+  });
 
   //change nav colore when scrolling
   const [color, setColor] = useState(false);
@@ -63,15 +70,17 @@ const Hero = () => {
   };
 
   const handlerChangeNavColor = () => {
-    if (window.scrollY >= 750) {
+    if (window.scrollY >= 600) {
       setColor(true);
     } else {
       setColor(false);
     }
   };
 
+  /* change language */
   const handlerSwitchLanguge = (lang) => {
     i18n.changeLanguage(lang);
+    setLanguage((state) => (state === "en" ? "es" : "en"));
   };
 
   useEffect(() => {
@@ -90,6 +99,11 @@ const Hero = () => {
     window.addEventListener("scroll", handlerChangeNavColor);
   }, []);
 
+  /* localstorage language */
+
+  useEffect(() => {
+    localStorage.setItem("language", JSON.stringify(language));
+  }, [language]);
   return (
     /* htmls body */
 
@@ -261,7 +275,8 @@ const Hero = () => {
         <section className="flex flex-1 -z-[100] items-center">
           <div className="w-full mx-auto">
             <h1 className="text-center text-5xl md:text-8xl font-semibold font-poppins ">
-              I am a<span className="animate-ping">_</span>
+              {t("Nav.name")}
+              <span className="animate-ping">_</span>
               <br />
               <span className="text-3xl font-light md:text-4xl mt-5">
                 {text}
@@ -275,14 +290,14 @@ const Hero = () => {
                 href="https://drive.google.com/file/d/1ZOyo0DkAEZMWK2G0DF204fo8j93GrnQk/view?usp=sharing"
                 target="_blank"
               >
-                Resume
+                {t("Nav.resume")}
               </a>
               <a
                 className="px-5 py-2 inline-block  bg-[#32CD32] hover:bg-black hover:text-white transition-colors mt-10 rounded-lg drop-shadow-3xl"
                 href="https://drive.google.com/file/d/1DuBhBpdsRAmW1OR1vL4j9PjMAI5rzgmJ/view?usp=sharing"
                 target="_blank"
               >
-                ATS Resume
+                {t("Nav.ATS")}
               </a>
             </div>
           </div>

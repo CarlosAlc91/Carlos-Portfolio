@@ -13,16 +13,16 @@ const Studies = () => {
     <section id="academic" className="w-full mx-auto h-full px-6 py-6">
       <h1
         className="font-poppins py-20 text-center text-[#32CD32] text-4xl font-semibold md:text-5xl w-full mx-auto"
-        data-aos="fade-right"
+        data-aos="zoom-in-down"
       >
         {t("Academic.title")}
       </h1>
-      <div
-        className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[75%] gap-6 mx-auto  rounded-3xl px-6 py-8"
-        data-aos="fade-down"
-      >
+      <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] md:w-[75%] gap-6 mx-auto  rounded-3xl px-6 py-8">
         {/* uaem */}
-        <div className="flex flex-col h-[350px] w-[250px] justify-center items-center gap-4  bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32]  rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div
+          className="flex flex-col h-[350px] w-[250px] justify-center items-center gap-4  bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32]  rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-right"
+        >
           <img
             className="rounded-full h-[100px] w-[100px]"
             src="/images/uaem.jpeg"
@@ -37,7 +37,10 @@ const Studies = () => {
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div
+          className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-left"
+        >
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -52,7 +55,10 @@ const Studies = () => {
           </p>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div
+          className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-right"
+        >
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -74,7 +80,10 @@ const Studies = () => {
           </a>
         </div>
         {/* academlo */}
-        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div
+          className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-left"
+        >
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/academlo.jpg"
@@ -96,7 +105,10 @@ const Studies = () => {
           </a>
         </div>
         {/* hcc */}
-        <div className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500">
+        <div
+          className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-right"
+        >
           <img
             className="h-[90px] w-[90px] rounded-full"
             src="/images/hcc.jpg"

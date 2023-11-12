@@ -12,15 +12,18 @@ const Projects = () => {
     <article id="projects" className="w-full mx-auto px-6 py-6 relative h-full">
       <h1
         className="font-poppins font-semibold text-center text-[#32CD32] text-4xl py-20 md:text-5xl w-full mx-auto"
-        data-aos="fade-right"
+        data-aos="zoom-out-up"
       >
         {t("Projects.title")}
       </h1>
-      <section className="w-full mx-auto z-10 relative">
+      <section className="w-full md:w-[85%] mx-auto z-10 relative">
         {/* div container */}
         <div className=" grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 px-6 py-8 items-center justify-center rounded-3xl w-full mx-auto text-center">
           {/* pokedex */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-right"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -59,7 +62,10 @@ const Projects = () => {
           </div>
 
           {/* http crud */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-left"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -98,7 +104,10 @@ const Projects = () => {
           </div>
 
           {/* rick and morthy */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-right"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -137,7 +146,10 @@ const Projects = () => {
           </div>
 
           {/* weather app */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-left"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -176,7 +188,10 @@ const Projects = () => {
           </div>
 
           {/* div fortune cookie*/}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-right"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -215,7 +230,10 @@ const Projects = () => {
           </div>
 
           {/* div todo list */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-left"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img
@@ -254,7 +272,10 @@ const Projects = () => {
           </div>
 
           {/* div ecommerce */}
-          <div className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl">
+          <div
+            className="w-[300px] h-[430px] bg-transparent cursor-pointer group perspective border-[3px] border-[#32CD32] rounded-2xl"
+            data-aos="fade-right"
+          >
             <div className="relative preserve-3d group-hover:my-rotate-180 w-full h-full duration-1000">
               <div className="absolute backface-hidden border-2 rounded-2xl w-full h-full">
                 <img

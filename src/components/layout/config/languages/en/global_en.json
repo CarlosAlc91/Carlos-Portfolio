@@ -5,7 +5,10 @@
     "academic": "Academic",
     "technologies": "Technologies",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "name": "I am a",
+    "resume": "Resume",
+    "ATS": "ATS Resume"
   },
   "AboutMe": {
     "title":"About me",

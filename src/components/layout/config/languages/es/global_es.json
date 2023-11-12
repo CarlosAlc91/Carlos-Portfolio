@@ -5,7 +5,10 @@
     "academic": "Estudios",
     "technologies": "Tecnologías",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "name": "Soy un",
+    "resume": "CV",
+    "ATS": "ATS CV"
   },
   "AboutMe": {
     "title":"Conóceme",
