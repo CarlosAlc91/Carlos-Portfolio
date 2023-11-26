@@ -49,10 +49,42 @@ const Studies = () => {
           <h3 className="font-sen font-semibold text-xl text-center">
             Academlo
           </h3>
-          <h4 className="font-sen text-xl text-center">2023 - Actual</h4>
+          <h4 className="font-sen text-xl text-center">2023 - 2023</h4>
+          <p className="font-poppins text-lg text-center">
+            {t("Academic.major-full")}
+          </p>
+          <a
+            className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#32CD32] hover:bg-black hover:text-white transition-colors rounded-lg text-center"
+            href="https://drive.google.com/file/d/1nRvFFFfIWxZxlgAbxJDTEWqBw7YBH2xB/view?usp=drive_link"
+            target="_blank"
+          >
+            {t("Academic.button")}
+          </a>
+        </div>
+        {/* academlo */}
+        <div
+          className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
+          data-aos="fade-left"
+        >
+          <img
+            className="h-[90px] w-[90px] rounded-full"
+            src="/images/academlo.jpg"
+            alt=""
+          />
+          <h3 className="font-sen font-semibold text-xl text-center">
+            Academlo
+          </h3>
+          <h4 className="font-sen text-xl text-center">2023 - 2023</h4>
           <p className="font-poppins text-lg text-center">
             {t("Academic.major-back")}
           </p>
+          <a
+            className="w-1/2 px-4 mx-auto py-2 inline-block bg-[#32CD32] hover:bg-black hover:text-white transition-colors rounded-lg text-center"
+            href="https://drive.google.com/file/d/1aHwkJC_spQgMcsS8HCIX7MaFonFAGqhW/view?usp=drive_link"
+            target="_blank"
+          >
+            {t("Academic.button")}
+          </a>
         </div>
         {/* academlo */}
         <div

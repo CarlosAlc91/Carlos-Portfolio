@@ -115,9 +115,7 @@ const Hero = () => {
 
         <section
           className={`flex header fixed w-full mx-auto md:py-3 text-black rounded-b-lg dark:bg-container dark:text-white ${
-            color
-              ? "bg-white dark:bg-container"
-              : "dark:bg-white/0 dark:text-black"
+            color ? "bg-white dark:bg-container" : "dark:bg-white/0"
           }`}
         >
           <div className="flex flex-col md:flex md:flex-row md:justify-evenly md:items-center mx-auto w-full px-5">
