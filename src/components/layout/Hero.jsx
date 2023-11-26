@@ -26,11 +26,11 @@ const Hero = () => {
 
   const [text] = useTypewriter({
     words: [
-      "Jr. front-end developer",
-      "computer engineer student",
-      "self-Paced student",
-      "adaptable person",
-      "someone with desire to learn",
+      `${t("Hero.im")}`,
+      `${t("Hero.student")}`,
+      `${t("Hero.paced")}`,
+      `${t("Hero.adaptable")}`,
+      `${t("Hero.someone")}`,
     ],
     loop: {},
     typeSpeed: 125,

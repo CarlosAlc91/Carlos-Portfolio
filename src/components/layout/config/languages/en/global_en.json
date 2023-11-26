@@ -1,4 +1,11 @@
 {
+  "Hero":{
+    "im": "Full Stack Web Developer",
+    "student": "Computer Engineer Student",
+    "paced": "Self-paced student",
+    "adaptable": "Adaptable person",
+    "someone": "someone with desire to learn"
+  },
   "Nav": {
     "home": "Home",
     "about": "About",
