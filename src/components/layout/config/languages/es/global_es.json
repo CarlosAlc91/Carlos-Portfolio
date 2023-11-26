@@ -1,6 +1,6 @@
 {
   "Hero":{
-    "im": "Desarrollador Full Stack",
+    "im": "Desarrollador Web Full Stack",
     "student": "Estudianate de Ingenieria en Computacion",
     "paced": "Estudianate autodidacta",
     "adaptable": "Persona adaptable",
@@ -20,7 +20,7 @@
   "AboutMe": {
     "title":"Conóceme",
     "hi": "Hola!",
-    "body": "Desarrollador junior apasionado por la creación de software de alta calidad. Tengo un amplio conocimiento de lenguajes básicos como HTML, CSS y JavaScript, y estoy familiarizado con librerías y frameworks como React, Tailwind CSS, y Node.js. He completado con éxito el boot camp de Desarrollo Web Full Stack en Academlo, donde aprendí los fundamentos del desarrollo web, incluyendo HTML, CSS, JavaScript, React y Node.js. Estoy en busqueda de oportunidades para aplicar mis habilidades y experiencia en el desarrollo de software. Estoy interesado en trabajar en proyectos que sean desafiantes y gratificantes, y que me permitan aprender y crecer como desarrollador."
+    "body": "Desarrollador Web Full Stack junior apasionado por la creación de software de alta calidad. Tengo un amplio conocimiento de lenguajes básicos como HTML, CSS y JavaScript, y estoy familiarizado con librerías y frameworks como React, Tailwind CSS, y Node.js. He completado con éxito el boot camp de Desarrollo Web Full Stack en Academlo, donde aprendí los fundamentos del desarrollo web, incluyendo HTML, CSS, JavaScript, React y Node.js. Estoy en busqueda de oportunidades para aplicar mis habilidades y experiencia en el desarrollo de software. Estoy interesado en trabajar en proyectos que sean desafiantes y gratificantes, y que me permitan aprender y crecer como desarrollador."
   },
   "Academic": {
     "title": "Estudios",
