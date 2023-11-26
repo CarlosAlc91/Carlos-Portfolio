@@ -114,7 +114,7 @@ const Studies = () => {
         {/* academlo */}
         <div
           className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
           <img
             className="h-[90px] w-[90px] rounded-full"
@@ -139,7 +139,7 @@ const Studies = () => {
         {/* hcc */}
         <div
           className=" flex flex-col h-[350px] w-[250px] justify-center items-center gap-4 bg-[#e8e8e8] hover:bg-[#d9d9d9] py-3 px-2 border-2 border-[#32CD32] rounded-xl mx-auto transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-500"
-          data-aos="fade-right"
+          data-aos="fade-left"
         >
           <img
             className="h-[90px] w-[90px] rounded-full"
